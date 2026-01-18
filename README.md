@@ -30,6 +30,8 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
   - [Surveys](#surveys)
   - [End to End 3D Reconstruction](#end-to-end-3d-reconstruction)
   - [Online 3R/SLAM](#online-3rslam)
+    - [Online 3R](#online-3r)
+    - [SLAM](#slam)
   - [4D Reconstruction](#4d-reconstruction)
   - [3D Generation](#3d-generation)
   - [3D Perception](#3d-perception)
@@ -45,7 +47,8 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 ---
 
 ## Surveys 
-- "Advances in Feed-Forward 3D Reconstruction and View Synthesis: A Survey"[arXiv 2025.07](https://arxiv.org/abs/2507.14501)
+- "Advances in Feed-Forward 3D Reconstruction and View Synthesis: A Survey". [arXiv 2025.07](https://arxiv.org/abs/2507.14501)
+- "3D Scene Generation: A Survey". [arXiv 2025.05](https://arxiv.org/abs/2505.05474v1)
 
 
 ## End to End 3D Reconstruction 
@@ -55,27 +58,53 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - [⭐️] **NopoSplat**, "No Pose, No Problem: Surprisingly Simple 3D Gaussian Splats from Sparse Unposed Images". [arXiv 2024.10](https://arxiv.org/abs/2410.24207)
 - [⭐️] **VGGT**, "On Geometric Understanding and Learned Data Priors in VGGT". [arXiv 2025.03](https://arxiv.org/abs/2503.11651)
 - [⭐️] **E-RayZer**, "E-RayZer: Self-supervised 3D Reconstruction as Spatial Visual Pre-training". [arXiv 2025.12](https://arxiv.org/abs/2512.10950)
+- [⭐️] **π^3**, "π^3: Permutation-Equivariant Visual Geometry Learning". [arXiv 2025.07](https://arxiv.org/abs/2507.13347v2)
+- [⭐️] **OmniVGGT**, "OmniVGGT: Omni-Modality Driven Visual Geometry Grounded Transformer". [arXiv 2025.11](https://arxiv.org/abs/2511.10560v1)
+- [⭐️] **MapAnything**, "MapAnything: Universal Feed-Forward Metric 3D Reconstruction". [arXiv 2025.09](https://arxiv.org/abs/2509.13414v2)
 
 ## Online 3R/SLAM
+### Online 3R
 - [⭐️] **Spann3R**, "3D Reconstruction with Spatial Memory". [arXiv 2024.08](https://arxiv.org/abs/2408.16061)
 - [⭐️] **CUT3R**, "Continuous 3D Perception Model with Persistent State". [arXiv 2025.01](https://arxiv.org/abs/2501.12387)
 - [⭐️] **Point3R**, "Point3R: Streaming 3D Reconstruction with Explicit Spatial Pointer Memory". [arXiv 2025.07](https://arxiv.org/abs/2507.02863)
 - [⭐️] **StreamVGGT**, "Streaming 4D Visual Geometry Transformer". [arXiv 2025.07](https://arxiv.org/abs/2507.11539)
+-  **XStreamVGGT**, "XStreamVGGT: Extremely Memory-Efficient Streaming Vision Geometry
+Grounded Transformer with KV Cache Compression". [arXiv 2026.01](https://arxiv.org/abs/2601.01204v1)
+-  **InfiniteVGGT**, "InfiniteVGGT: Visual Geometry Grounded Transformer for Endless Streams". [arXiv 2026.01](https://arxiv.org/abs/2601.02281v1)
+-  **TTT3R**, "TTT3R: 3D RECONSTRUCTION AS TEST-TIME TRAINING". [arXiv 2025.10](https://arxiv.org/abs/2509.26645v3)
+### SLAM
+- [⭐️] **SLAM-Former**, "SLAM-Former: Putting SLAM into One Transformer". [arXiv 2025.09](https://arxiv.org/abs/2509.16909v1)
+- [⭐️] **VGGT-SLAM**, "VGGT-SLAM: Dense RGB SLAM Optimized on the SL(4) Manifold". [arXiv 2025.09](https://arxiv.org/abs/2505.12549)
+
 
 ## 4D Reconstruction
-- (Placeholder)
+- [⭐️] **4D-VGGT**, "4D-VGGT: A General Foundation Model with SpatioTemporal Awareness for Dynamic Scene Geometry Estimation". [arXiv 2025.1](https://arxiv.org/abs/2511.18416)
+- [⭐️] **Gaussian-Flow**, "Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle". [arXiv 2023.12](https://arxiv.org/abs/2312.03431)
+- [⭐️] **Shape of Motion**, "Shape of Motion: 4D Reconstruction from a Single Video". [arXiv 2024.7](https://arxiv.org/abs/2407.13764)
+- [⭐️] **St4RTrack**, "St4RTrack: Simultaneous 4D Reconstruction and Tracking in the World". [arXiv 2025.4](https://arxiv.org/abs/2504.13152)
+- [⭐️] **SplatFields**, "Neural Gaussian Splats for Sparse 3D and 4D Reconstruction". [arXiv 2024.9](https://arxiv.org/abs/2409.11211)
+- [⭐️] **L4GM**, "L4GM: Large 4D Gaussian Reconstruction Model". [arXiv 2024.7](https://arxiv.org/abs/2406.10324)
 
 ## 3D Generation
 - [⭐️] **Zero123++**, "Zero123++: a Single Image to Consistent Multi-view Diffusion Base Model"[arXiv 2023.10](https://arxiv.org/abs/2310.15110)
 - [⭐️] **LRM**, "LRM: Large Reconstruction Model for Single Image to 3D"[arXiv 2023.11](https://arxiv.org/abs/2311.04400)
 - [⭐️] **LGM**, "LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation". [arXiv 2024.02](https://arxiv.org/abs/2402.05054)
 - [⭐️] **TRELLIS**, "Structured 3D Latents for Scalable and Versatile 3D Generation". [arXiv 2024.12](https://arxiv.org/pdf/2412.01506)
+- [⭐️] **LYRA**, "LYRA: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation
+". [arXiv 2025.09](https://arxiv.org/pdf/2509.19296v1)
+
 
 ## 3D Perception
-- (Placeholder)
+- [⭐️] **SAM3D**, "SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model". [arXiv 2024.01](https://arxiv.org/abs/2306.02245v2)
 
 ## 4D Perception
-- (Placeholder)
+- [⭐️] **Trace Anything**, "Trace Anything: Representing Any Video in 4D via Trajectory Fields". [arXiv 2025.10](https://arxiv.org/abs/2510.13802)
+- [⭐️] **3AM**, "3AM: Segment Anything with Geometric Consistency in Videos". [arXiv 2026.01](https://arxiv.org/abs/2601.08831)
+- [⭐️] **OmniWorld**, "OmniWorld: A Multi-Domain and Multi-Modal Dataset for
+4D World Modeling". [arXiv 2025.09](https://arxiv.org/abs/2509.12201v1)
+- [⭐️] **ViPE**, "ViPE: Video Pose Engine for 3D Geometric Perception
+". [arXiv 2025.08](https://arxiv.org/abs/2508.10934)
+
 
 ## 3D Free Method
 - [⭐️] **LVSM**, "LVSM: A Large View Synthesis Model with Minimal 3D Inductive Bias". [arXiv 2410.17242](https://arxiv.org/abs/2410.17242)
@@ -84,6 +113,10 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - 
 ## Related Analysis
 - [⭐️] "How Much 3D Do Video Foundation Models Encode?". [arXiv 2025.07](https://arxiv.org/abs/2512.19949)
+- [⭐️] "What Is The Best 3D Scene Representation for
+Robotics? From Geometric to Foundation Models". [arXiv 2025.12](https://arxiv.org/abs/2512.03422v1)
+- "On Geometric Understanding and Learned Data Priors in VGGT". [arXiv 2025.12](https://arxiv.org/abs/2512.11508)
+
 
 ## 3D Foundation Models' Application
 - [⭐️] "Video World Models with Long-term Spatial Memory". [arXiv 2025.06](https://arxiv.org/abs/2506.05284)
