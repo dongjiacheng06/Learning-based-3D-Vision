@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/github/license/dongjiacheng06/Learning-based-3D-Vision)](./LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](./CONTRIBUTING.md)
 
-A carefully curated list of outstanding works in **3D vision**, aiming to provide a one-stop resource for scholars, practitioners, and enthusiasts interested in 3D vision and its potentially exciting roles in future embodied intelligence / world perception and other areas.
+A carefully curated list of outstanding works in **Learning-based 3D vision**, aiming to provide a one-stop resource for scholars, practitioners, and enthusiasts interested in 3D vision and its potentially exciting roles in future embodied intelligence / world perception and other areas.
 <p align="center">
   <img src="assets/image.png" alt="Learning-based 3D Vision" width="100%" style="border-radius: 15px; box-shadow: 0 4px 24px rgba(0,0,0,.1); margin: 5px 0;">
 </p>
