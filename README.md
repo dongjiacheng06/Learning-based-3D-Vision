@@ -13,7 +13,7 @@ A carefully curated list of outstanding works in **3D vision**, aiming to provid
 ## News & Updates
 Major updates and announcements are shown below. Scroll for full taxonomy and paper lists.
 
-- [2026.01] Repo Launch — Awesome-3D-papers is now live! See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to contribute.
+- [2026.01] Repo Launch — Learning-based-3D-Vision is now live! See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to contribute.
 - [Ongoing] Community Contributions Welcome — Submit papers via PR or open an issue.
 - ⭐ [Ongoing] If you find this useful, please consider giving a star and sharing it with your research community!
 
