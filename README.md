@@ -32,6 +32,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
   - [4D Perception](#4d-perception)
   - [3D Free Method](#3d-free-method)
   - [Related Analysis](#related-analysis)
+  - [3D Foundation Models' Application](#3d-foundation-models-application)
   - [Citation](#citation)
 
 ---
@@ -75,7 +76,11 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - [⭐️] **XFactor**, "True Self-Supervised Novel View Synthesis is Transferable". [arXiv 2510.13063](https://arxiv.org/abs/2510.13063)
 - 
 ## Related Analysis
-- [⭐️] "How Much 3D Do Video Foundation Models Encode?". [arXiv 2512.19949](https://arxiv.org/abs/2512.19949)
+- [⭐️] "How Much 3D Do Video Foundation Models Encode?". [arXiv 2025.07](https://arxiv.org/abs/2512.19949)
+
+## 3D Foundation Models' Application
+- [⭐️] "Video World Models with Long-term Spatial Memory". [arXiv 2025.06](https://arxiv.org/abs/2506.05284)
+
 
 ## Citation
 If you find this repository useful, please consider citing it:
