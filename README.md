@@ -1,7 +1,7 @@
 # Learning-based 3D Vision
 
-[![GitHub stars](https://img.shields.io/github/stars/dongjiacheng06/Awesome-3D-papers?style=social)](https://github.com/dongjiacheng06/Awesome-3D-papers/stargazers)
-[![License](https://img.shields.io/github/license/dongjiacheng06/Awesome-3D-papers)](./LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/dongjiacheng06/Learning-based-3D-Vision?style=social)](https://github.com/dongjiacheng06/Learning-based-3D-Vision/stargazers)
+[![License](https://img.shields.io/github/license/dongjiacheng06/Learning-based-3D-Vision)](./LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](./CONTRIBUTING.md)
 
 A carefully curated list of outstanding works in **3D vision**, aiming to provide a one-stop resource for scholars, practitioners, and enthusiasts interested in 3D vision and its potentially exciting roles in future embodied intelligence / world perception and other areas.
