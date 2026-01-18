@@ -1,17 +1,19 @@
+<div align="center">
+
 # Learning-based 3D Vision
 
 [![GitHub stars](https://img.shields.io/github/stars/dongjiacheng06/Learning-based-3D-Vision?style=social)](https://github.com/dongjiacheng06/Learning-based-3D-Vision/stargazers)
 [![License](https://img.shields.io/github/license/dongjiacheng06/Learning-based-3D-Vision)](./LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](./CONTRIBUTING.md)
 
-A list of works in **Learning-based 3D vision**, aiming to provide a resource for scholars, practitioners, and enthusiasts interested in 3D vision and its potentially exciting roles in future embodied intelligence / world perception and other areas.
+A list of works in **Learning-based 3D Vision**, aiming to provide a resource for scholars, practitioners, and enthusiasts interested in 3D vision and its potentially exciting roles in future embodied intelligence / world perception and other areas.
 <p align="center">
   <img src="assets/image.png" alt="Learning-based 3D Vision" width="100%" style="border-radius: 15px; box-shadow: 0 4px 24px rgba(0,0,0,.1); margin: 5px 0;">
 </p>
 
 *Photo Credit: [Gemini-Nano-Banana🍌](https://aistudio.google.com/models/gemini-2-5-flash-image)*.
 </div>
-
+</div>
 ---
 
 ## News & Updates
@@ -25,6 +27,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 ## Categories
 - [Learning-based 3D Vision](#learning-based-3d-vision)
+  - [](#)
   - [News \& Updates](#news--updates)
   - [Categories](#categories)
   - [Surveys](#surveys)
