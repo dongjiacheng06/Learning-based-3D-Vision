@@ -13,7 +13,7 @@ A list of works in **Learning-based 3D Vision**, aiming to provide a resource fo
 
 *Photo Credit: [Gemini-Nano-Banana🍌](https://aistudio.google.com/models/gemini-2-5-flash-image)*.
 </div>
-</div>
+
 ---
 
 ## News & Updates
@@ -27,7 +27,6 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 ## Categories
 - [Learning-based 3D Vision](#learning-based-3d-vision)
-  - [](#)
   - [News \& Updates](#news--updates)
   - [Categories](#categories)
   - [Surveys](#surveys)
