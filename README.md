@@ -5,9 +5,13 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](./CONTRIBUTING.md)
 
 A carefully curated list of outstanding works in **3D vision**, aiming to provide a one-stop resource for scholars, practitioners, and enthusiasts interested in 3D vision and its potentially exciting roles in future embodied intelligence / world perception and other areas.
+<p align="center">
+  <img src="assets/image.png" alt="Learning-based 3D Vision" width="100%" style="border-radius: 15px; box-shadow: 0 4px 24px rgba(0,0,0,.1); margin: 5px 0;">
+</p>
 
-> **Legend**  
-> ⭐️ Recommended / Must-read  
+*Photo Credit: [Gemini-Nano-Banana🍌](https://aistudio.google.com/models/gemini-2-5-flash-image)*.
+</div>
+
 ---
 
 ## News & Updates
@@ -33,8 +37,11 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
   - [3D Free Method](#3d-free-method)
   - [Related Analysis](#related-analysis)
   - [3D Foundation Models' Application](#3d-foundation-models-application)
+  - [Acknowledgements](#acknowledgements)
   - [Citation](#citation)
 
+> **Legend**  
+> ⭐️ Recommended / Must-read  
 ---
 
 ## Surveys 
@@ -81,6 +88,12 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 ## 3D Foundation Models' Application
 - [⭐️] "Video World Models with Long-term Spatial Memory". [arXiv 2025.06](https://arxiv.org/abs/2506.05284)
 
+
+## Acknowledgements
+This project has largely drawn on the following projects:
+-  [Awesome-World-Models](https://github.com/knightnemo/Awesome-World-Models)
+  
+Huge shoutout the the authors for their awesome work.
 
 ## Citation
 If you find this repository useful, please consider citing it:
