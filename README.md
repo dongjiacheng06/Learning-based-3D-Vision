@@ -45,7 +45,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
   - [Citation](#citation)
 
 > **Legend**  
-> ⭐️ Recommended / Must-read  
+> ⭐️ Recommended
 ---
 
 ## Surveys 
@@ -84,8 +84,9 @@ Grounded Transformer with KV Cache Compression". [arXiv 2026.01](https://arxiv.o
 - [⭐️] **Gaussian-Flow**, "Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle". [arXiv 2023.12](https://arxiv.org/abs/2312.03431)
 - [⭐️] **Shape of Motion**, "Shape of Motion: 4D Reconstruction from a Single Video". [arXiv 2024.7](https://arxiv.org/abs/2407.13764)
 - [⭐️] **St4RTrack**, "St4RTrack: Simultaneous 4D Reconstruction and Tracking in the World". [arXiv 2025.4](https://arxiv.org/abs/2504.13152)
-- [⭐️] **SplatFields**, "Neural Gaussian Splats for Sparse 3D and 4D Reconstruction". [arXiv 2024.9](https://arxiv.org/abs/2409.11211)
-- [⭐️] **L4GM**, "L4GM: Large 4D Gaussian Reconstruction Model". [arXiv 2024.7](https://arxiv.org/abs/2406.10324)
+- **SplatFields**, "Neural Gaussian Splats for Sparse 3D and 4D Reconstruction". [arXiv 2024.9](https://arxiv.org/abs/2409.11211)
+- **L4GM**, "L4GM: Large 4D Gaussian Reconstruction Model". [arXiv 2024.7](https://arxiv.org/abs/2406.10324)
+- [⭐️] **V-DPM**, "V-DPM: 4D Video Reconstruction with Dynamic Point Maps". [arXiv 2026.01](https://arxiv.org/abs/2601.09499)
 
 ## 3D Generation
 - [⭐️] **Zero123++**, "Zero123++: a Single Image to Consistent Multi-view Diffusion Base Model"[arXiv 2023.10](https://arxiv.org/abs/2310.15110)
