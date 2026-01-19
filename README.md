@@ -80,12 +80,15 @@ Grounded Transformer with KV Cache Compression". [arXiv 2026.01](https://arxiv.o
 
 
 ## 4D Reconstruction
-- [⭐️] **4D-VGGT**, "4D-VGGT: A General Foundation Model with SpatioTemporal Awareness for Dynamic Scene Geometry Estimation". [arXiv 2025.1](https://arxiv.org/abs/2511.18416)
+- [⭐️] **4D-VGGT**, "4D-VGGT: A General Foundation Model with SpatioTemporal Awareness for Dynamic Scene Geometry Estimation". [arXiv 2025.11](https://arxiv.org/abs/2511.18416)
+- [⭐️] **VGGT4D**, "VGGT4D: Mining Motion Cues in Visual Geometry Transformers for 4D Scene Reconstruction". [arXiv 2025.11](https://arxiv.org/abs/2511.19971)
 - [⭐️] **Gaussian-Flow**, "Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle". [arXiv 2023.12](https://arxiv.org/abs/2312.03431)
 - [⭐️] **Shape of Motion**, "Shape of Motion: 4D Reconstruction from a Single Video". [arXiv 2024.7](https://arxiv.org/abs/2407.13764)
 - [⭐️] **St4RTrack**, "St4RTrack: Simultaneous 4D Reconstruction and Tracking in the World". [arXiv 2025.4](https://arxiv.org/abs/2504.13152)
 - **SplatFields**, "Neural Gaussian Splats for Sparse 3D and 4D Reconstruction". [arXiv 2024.9](https://arxiv.org/abs/2409.11211)
 - **L4GM**, "L4GM: Large 4D Gaussian Reconstruction Model". [arXiv 2024.7](https://arxiv.org/abs/2406.10324)
+-  **D4RT**, "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time". [arXiv 2025.12](https://arxiv.org/abs/2512.08924)
+- [⭐️] **One4D**, "One4D: Unified 4D Generation and Reconstruction via Decoupled LoRA Control". [arXiv 2025.11](https://arxiv.org/abs/2511.18922)
 - [⭐️] **V-DPM**, "V-DPM: 4D Video Reconstruction with Dynamic Point Maps". [arXiv 2026.01](https://arxiv.org/abs/2601.09499)
 
 ## 3D Generation
@@ -107,6 +110,8 @@ Grounded Transformer with KV Cache Compression". [arXiv 2026.01](https://arxiv.o
 4D World Modeling". [arXiv 2025.09](https://arxiv.org/abs/2509.12201v1)
 - [⭐️] **ViPE**, "ViPE: Video Pose Engine for 3D Geometric Perception
 ". [arXiv 2025.08](https://arxiv.org/abs/2508.10934)
+- [⭐️] **DynamicVerse**, "DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling". [arXiv 2025.12](https://arxiv.org/abs/2512.03000)
+- [⭐️] **Uni4D**, "Uni4D: Unifying Visual Foundation Models for 4D Modeling from a Single Video". [arXiv 2025.03](https://arxiv.org/abs/2503.21761)
 
 
 ## 3D Free Method
