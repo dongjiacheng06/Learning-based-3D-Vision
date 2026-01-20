@@ -90,12 +90,13 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - **VGGT-SLAM**, "VGGT-SLAM: Dense RGB SLAM Optimized on the SL(4) Manifold". [arXiv 2025.09](https://arxiv.org/abs/2505.12549)
 
 ## 3D Generation
+- **Michelangelo**, "Michelangelo: Conditional 3D Shape Generation based on Shape-Image-Text Aligned Latent Representation"[arXiv 2023.06](https://arxiv.org/abs/2306.17115)
 - [⭐️] **Zero123++**, "Zero123++: a Single Image to Consistent Multi-view Diffusion Base Model"[arXiv 2023.10](https://arxiv.org/abs/2310.15110)
 - [⭐️] **LRM**, "LRM: Large Reconstruction Model for Single Image to 3D"[arXiv 2023.11](https://arxiv.org/abs/2311.04400)
 - [⭐️] **LGM**, "LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation". [arXiv 2024.02](https://arxiv.org/abs/2402.05054)
 - [⭐️] **TRELLIS**, "Structured 3D Latents for Scalable and Versatile 3D Generation". [arXiv 2024.12](https://arxiv.org/pdf/2412.01506)
 - [⭐️] **LYRA**, "LYRA: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation". [arXiv 2025.09](https://arxiv.org/pdf/2509.19296v1)
-
+- **GeoWorld**, "GeoWorld: Unlocking the Potential of Geometry Models to Facilitate High-Fidelity 3D Scene Generation". [arXiv 2025.11](https://arxiv.org/pdf/2511.23191)
 
 ## 3D Perception
 - [⭐️] **SAM3D**, "SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model". [arXiv 2024.01](https://arxiv.org/abs/2306.02245v2)
@@ -103,6 +104,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - [⭐️] "Depth Anything v2". [arXiv 2024.06](https://arxiv.org/abs/2406.09414)
 - "Depth Anything at Any Condition". [arXiv 2025.07](https://arxiv.org/abs/2507.01634)
 - **DA^2**, "DA^2: Depth Anything in Any Direction". [arXiv 2025.09](https://arxiv.org/abs/2509.26618)
+- **AnyDepth**, "AnyDepth: Depth Estimation Made Easy". [arXiv 2026.01](https://arxiv.org/abs/2601.02760)
 
 ## 4D Reconstruction
 ### E2E 4D Reconstruction
