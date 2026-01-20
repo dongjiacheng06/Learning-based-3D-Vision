@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/github/license/dongjiacheng06/Learning-based-3D-Vision)](./LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](./CONTRIBUTING.md)
 
-A list of works in **Learning-based 3D Vision**, aiming to provide a resource for scholars, practitioners, and enthusiasts interested in 3D vision and its potentially exciting roles in future embodied intelligence / world perception and other areas.
+A curated collection of works in **Learning-based 3D Vision**, systematically organizing nearly ten major branches of 3D/4D vision research, include but not limited to E2E 3D Reconstruction/4DV/Online Reconstruction and other several frontier fields. This repository was created to help researchers quickly locate papers relevant to their field and enable newcomers to build a clear understanding of the landscape. It aims to serve as a comprehensive resource for scholars, practitioners, and enthusiasts exploring 3D vision and its exciting applications in embodied intelligence, world perception, and beyond. 
 <p align="center">
   <img src="assets/image.png" alt="Learning-based 3D Vision" width="100%" style="border-radius: 15px; box-shadow: 0 4px 24px rgba(0,0,0,.1); margin: 5px 0;">
 </p>
@@ -108,18 +108,21 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 ### E2E 4D Reconstruction
 - **Shape of Motion**, "Shape of Motion: 4D Reconstruction from a Single Video". [arXiv 2024.07](https://arxiv.org/abs/2407.13764)
 - **St4RTrack**, "St4RTrack: Simultaneous 4D Reconstruction and Tracking in the World". [arXiv 2025.04](https://arxiv.org/abs/2504.13152)
+- **C4D**, "C4D: 4D Made from 3D through Dual Correspondences". [arXiv 2025.10](https://arxiv.org/abs/2510.14960)
 - **One4D**, "One4D: Unified 4D Generation and Reconstruction via Decoupled LoRA Control". [arXiv 2025.11](https://arxiv.org/abs/2511.18922)
 - [⭐️] **4D-VGGT**, "4D-VGGT: A General Foundation Model with SpatioTemporal Awareness for Dynamic Scene Geometry Estimation". [arXiv 2025.11](https://arxiv.org/abs/2511.18416)
 - [⭐️] **VGGT4D**, "VGGT4D: Mining Motion Cues in Visual Geometry Transformers for 4D Scene Reconstruction". [arXiv 2025.11](https://arxiv.org/abs/2511.19971)
 - **D4RT**, "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time". [arXiv 2025.12](https://arxiv.org/abs/2512.08924)
 - **V-DPM**, "V-DPM: 4D Video Reconstruction with Dynamic Point Maps". [arXiv 2026.01](https://arxiv.org/abs/2601.09499)
 
+
 ### non-E2E 4D Reconstruction
 - [⭐️] "4D Gaussian Splatting for Real-Time Dynamic Scene Rendering". [arXiv 2023.10](https://arxiv.org/abs/2310.08528)
 - **Gaussian-Flow**, "Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle". [arXiv 2023.12](https://arxiv.org/abs/2312.03431)
 - **L4GM**, "L4GM: Large 4D Gaussian Reconstruction Model". [arXiv 2024.7](https://arxiv.org/abs/2406.10324)
 - **SplatFields**, "Neural Gaussian Splats for Sparse 3D and 4D Reconstruction". [arXiv 2024.9](https://arxiv.org/abs/2409.11211)
-
+- [⭐️] "Interaction-Aware 4D Gaussian Splatting for Dynamic Hand-Object Interaction Reconstruction". [arXiv 2025.11](https://arxiv.org/abs/2511.14540)
+- **Sparse4DGS**"Sparse4DGS: 4D Gaussian Splatting for Sparse-Frame Dynamic Scene Reconstruction". [arXiv 2025.11](https://arxiv.org/abs/2511.07122)
 
 
 ## 4D Perception
@@ -127,8 +130,14 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - [⭐️] **ViPE**, "ViPE: Video Pose Engine for 3D Geometric Perception". [arXiv 2025.08](https://arxiv.org/abs/2508.10934)
 - [⭐️] **OmniWorld**, "OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling". [arXiv 2025.09](https://arxiv.org/abs/2509.12201v1)
 - **Trace Anything**, "Trace Anything: Representing Any Video in 4D via Trajectory Fields". [arXiv 2025.10](https://arxiv.org/abs/2510.13802)
+- **PAGE-4D**, "PAGE-4D: Disentangled Pose and Geometry Estimation for VGGT-4D Perception". [arXiv 2025.10](https://arxiv.org/abs/2510.17568)
 - **DynamicVerse**, "DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling". [arXiv 2025.12](https://arxiv.org/abs/2512.03000)
+- **SeeU**, "SeeU: Seeing the Unseen World via 4D Dynamics-aware Generation". [arXiv 2025.12](https://arxiv.org/abs/2512.03350)
 - **3AM**, "3AM: Segment Anything with Geometric Consistency in Videos". [arXiv 2026.01](https://arxiv.org/abs/2601.08831)
+- "Choreographing a World of Dynamic Objects". [arXiv 2026.01](https://arxiv.org/abs/2601.04194)
+
+
+
 
 
 ## 3D Free Method
