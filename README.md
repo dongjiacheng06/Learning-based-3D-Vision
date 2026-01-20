@@ -99,7 +99,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - **GeoWorld**, "GeoWorld: Unlocking the Potential of Geometry Models to Facilitate High-Fidelity 3D Scene Generation". [arXiv 2025.11](https://arxiv.org/pdf/2511.23191)
 
 ## 3D Perception
-- [⭐️] **SAM3D**, "SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model". [arXiv 2024.01](https://arxiv.org/abs/2306.02245v2)
+- [⭐️] **SAM3D**, "SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model". [arXiv 2024.01](https://arxiv.org/abs/2306.02245)
 - [⭐️] **Depth Anything**, "Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data". [arXiv 2024.01](https://arxiv.org/abs/2401.10891)
 - [⭐️] "Depth Anything v2". [arXiv 2024.06](https://arxiv.org/abs/2406.09414)
 - "Depth Anything at Any Condition". [arXiv 2025.07](https://arxiv.org/abs/2507.01634)
