@@ -87,7 +87,6 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 
 ### SLAM
-<<<<<<< HEAD
 - [⭐️] **SLAM-Former**, "SLAM-Former: Putting SLAM into One Transformer". [arXiv 2025.09](https://arxiv.org/abs/2509.16909v1)
 - [⭐️] **VGGT-SLAM**, "VGGT-SLAM: Dense RGB SLAM Optimized on the SL(4) Manifold". [arXiv 2025.09](https://arxiv.org/abs/2505.12549)
 
@@ -103,13 +102,11 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - **SplatFields**, "Neural Gaussian Splats for Sparse 3D and 4D Reconstruction". [arXiv 2024.9](https://arxiv.org/abs/2409.11211)
 - **L4GM**, "L4GM: Large 4D Gaussian Reconstruction Model". [arXiv 2024.7](https://arxiv.org/abs/2406.10324)
 -  **D4RT**, "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time". [arXiv 2025.12](https://arxiv.org/abs/2512.08924)
-=======
 - **MASt3R-SLAM**, "MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors". [arXiv 2024.12](https://arxiv.org/abs/2412.12392v2)
 - **SLAM3R**, "SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos". [arXiv 2024.12](https://arxiv.org/abs/2412.09401)
 - **GRS-SLAM3R**, "GRS-SLAM3R: Real-Time Dense SLAM with Gated Recurrent State". [arXiv 2025.09](https://arxiv.org/abs/2509.23737v1)
 - **SLAM-Former**, "SLAM-Former: Putting SLAM into One Transformer". [arXiv 2025.09](https://arxiv.org/abs/2509.16909v1)
 - **VGGT-SLAM**, "VGGT-SLAM: Dense RGB SLAM Optimized on the SL(4) Manifold". [arXiv 2025.09](https://arxiv.org/abs/2505.12549)
->>>>>>> f91ded715c0924686e8e93747205821c8f1e76ce
 
 ## 3D Generation
 - **Michelangelo**, "Michelangelo: Conditional 3D Shape Generation based on Shape-Image-Text Aligned Latent Representation"[arXiv 2023.06](https://arxiv.org/abs/2306.17115)
@@ -175,15 +172,12 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 
 ## Related Analysis
-<<<<<<< HEAD
 - [⭐️] "How Much 3D Do Video Foundation Models Encode?". [arXiv 2025.07](https://arxiv.org/abs/2512.19949)
 - [⭐️] "What Is The Best 3D Scene Representation for
 Robotics? From Geometric to Foundation Models". [arXiv 2025.12](https://arxiv.org/abs/2512.03422v1)
 - [⭐️] "Understanding multi-view transformers" [arXiv 2025.10](https://arxiv.org/abs/2510.24907)
-=======
 - "How Much 3D Do Video Foundation Models Encode?". [arXiv 2025.07](https://arxiv.org/abs/2512.19949)
 - "What Is The Best 3D Scene Representation for Robotics? From Geometric to Foundation Models". [arXiv 2025.12](https://arxiv.org/abs/2512.03422v1)
->>>>>>> f91ded715c0924686e8e93747205821c8f1e76ce
 - "On Geometric Understanding and Learned Data Priors in VGGT". [arXiv 2025.12](https://arxiv.org/abs/2512.11508)
 
 
