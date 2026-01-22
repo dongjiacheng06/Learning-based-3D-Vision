@@ -172,7 +172,7 @@ Wan: Open and Advanced Large-Scale Video
 ### Physical Foundation Models
 - [⭐️] **Cosmos**, "Cosmos World Foundation Model Platform for Physical AI". [arXiv 2025.01](https://arxiv.org/abs/2501.03575v3)
 - [⭐️] **Cosmos2.5**, "World Simulation with Video Foundation Models for
-Physical AI". [arXiv 2025.11](https://arxiv.org/abs/2511.00062v1)(https://github.com/nvidia-cosmos/cosmos-predict2.5)(https://github.com/nvidia-cosmos/cosmos-transfer2.5)(https://github.com/nvidia-cosmos/cosmos-reason1)
+Physical AI". [arXiv 2025.11](https://arxiv.org/abs/2511.00062v1)[cosmos-predict2.5](https://github.com/nvidia-cosmos/cosmos-predict2.5)[cosmos-transfer2.5](https://github.com/nvidia-cosmos/cosmos-transfer2.5)[cosmos-reason1](https://github.com/nvidia-cosmos/cosmos-reason1)
 
 
 
