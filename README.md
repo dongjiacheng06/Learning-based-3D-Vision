@@ -42,7 +42,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
   - [4D Perception](#4d-perception)
   - [3D Free Method](#3d-free-method)
   - [Related Analysis](#related-analysis)
-  - [3D Foundation Models' Application](#3d-foundation-models-application)
+  - [Foundation Models](#3d-foundation-models-application)
   - [Acknowledgements](#acknowledgements)
   - [Citation](#citation)
 
@@ -158,12 +158,22 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - "On Geometric Understanding and Learned Data Priors in VGGT". [arXiv 2025.12](https://arxiv.org/abs/2512.11508)
 
 
-## 3D Foundation Models' Application
+## Foundation Models
+### Generation/Reconstruction Foundation Models
 - **Hunyuan3D 1.0**, "Hunyuan3D 1.0: A Unified Framework for Text-to-3D and Image-to-3D Generation". [arXiv 2024.11](https://arxiv.org/abs/2411.02293)
+- **Wan**, "Wan: Open and Advanced Large-Scale Video Generative Models". [arXiv 2025.03](https://arxiv.org/abs/2503.20314v2)
+Wan: Open and Advanced Large-Scale Video 
 - [⭐️] "Video World Models with Long-term Spatial Memory". [arXiv 2025.06](https://arxiv.org/abs/2506.05284)
 - **Hunyuan3D 2.5**, "Hunyuan3D 2.5: Towards High-Fidelity 3D Assets Generation with Ultimate Details". [arXiv 2025.06](https://arxiv.org/abs/2506.1650)
 - **HunyuanWorld 1.0**, "HunyuanWorld 1.0: Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels". [arXiv 2025.07](https://arxiv.org/abs/2507.21809)
 - **HunyuanWorld 1.0**, "HunyuanWorld 1.0: Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels". [arXiv 2025.07](https://arxiv.org/abs/2507.21809)
+
+
+### Physical Foundation Models
+- [⭐️] **Cosmos**, "Cosmos World Foundation Model Platform for Physical AI". [arXiv 2025.01](https://arxiv.org/abs/2501.03575v3)
+- [⭐️] **Cosmos2.5**, "World Simulation with Video Foundation Models for
+Physical AI". [arXiv 2025.11](https://arxiv.org/abs/2511.00062v1)(https://github.com/nvidia-cosmos/cosmos-predict2.5)(https://github.com/nvidia-cosmos/cosmos-transfer2.5)(https://github.com/nvidia-cosmos/cosmos-reason1)
+
 
 
 
