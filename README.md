@@ -105,10 +105,13 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - "Depth Anything at Any Condition". [arXiv 2025.07](https://arxiv.org/abs/2507.01634)
 - **DA^2**, "DA^2: Depth Anything in Any Direction". [arXiv 2025.09](https://arxiv.org/abs/2509.26618)
 - **AnyDepth**, "AnyDepth: Depth Estimation Made Easy". [arXiv 2026.01](https://arxiv.org/abs/2601.02760)
+- **OpenVoxel**, "OpenVoxel: Training-Free Grouping and Captioning Voxels for Open-Vocabulary 3D Scene Understanding". [arXiv 2026.01](https://arxiv.org/abs/2601.09575)
+
 
 ## 4D Reconstruction
 ### E2E 4D Reconstruction
 - **Shape of Motion**, "Shape of Motion: 4D Reconstruction from a Single Video". [arXiv 2024.07](https://arxiv.org/abs/2407.13764)
+- **CAT4D**, "CAT4D: Create Anything in 4D with Multi-View Video Diffusion Models". [arXiv 2024.11](https://arxiv.org/abs/2411.18613)
 - **St4RTrack**, "St4RTrack: Simultaneous 4D Reconstruction and Tracking in the World". [arXiv 2025.04](https://arxiv.org/abs/2504.13152)
 - **C4D**, "C4D: 4D Made from 3D through Dual Correspondences". [arXiv 2025.10](https://arxiv.org/abs/2510.14960)
 - **One4D**, "One4D: Unified 4D Generation and Reconstruction via Decoupled LoRA Control". [arXiv 2025.11](https://arxiv.org/abs/2511.18922)
@@ -128,6 +131,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 
 ## 4D Perception
+- **Stereo4D**, "Stereo4D: Learning How Things Move in 3D from Internet Stereo Videos". [arXiv 2025.03](https://arxiv.org/abs/2412.09621)
 - **Uni4D**, "Uni4D: Unifying Visual Foundation Models for 4D Modeling from a Single Video". [arXiv 2025.03](https://arxiv.org/abs/2503.21761)
 - [⭐️] **ViPE**, "ViPE: Video Pose Engine for 3D Geometric Perception". [arXiv 2025.08](https://arxiv.org/abs/2508.10934)
 - [⭐️] **OmniWorld**, "OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling". [arXiv 2025.09](https://arxiv.org/abs/2509.12201v1)
@@ -137,8 +141,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - **SeeU**, "SeeU: Seeing the Unseen World via 4D Dynamics-aware Generation". [arXiv 2025.12](https://arxiv.org/abs/2512.03350)
 - **3AM**, "3AM: Segment Anything with Geometric Consistency in Videos". [arXiv 2026.01](https://arxiv.org/abs/2601.08831)
 - "Choreographing a World of Dynamic Objects". [arXiv 2026.01](https://arxiv.org/abs/2601.04194)
-
-
+- [⭐️] **NeoVerse**, "NeoVerse: Enhancing 4D World Model with in-the-wild Monocular Videos". [arXiv 2026.01](https://arxiv.org/abs/2601.00393)
 
 
 
@@ -150,17 +153,17 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 
 ## Related Analysis
-- [⭐️] "How Much 3D Do Video Foundation Models Encode?". [arXiv 2025.07](https://arxiv.org/abs/2512.19949)
-- [⭐️] "What Is The Best 3D Scene Representation for Robotics? From Geometric to Foundation Models". [arXiv 2025.12](https://arxiv.org/abs/2512.03422v1)
+- "How Much 3D Do Video Foundation Models Encode?". [arXiv 2025.07](https://arxiv.org/abs/2512.19949)
+- "What Is The Best 3D Scene Representation for Robotics? From Geometric to Foundation Models". [arXiv 2025.12](https://arxiv.org/abs/2512.03422v1)
 - "On Geometric Understanding and Learned Data Priors in VGGT". [arXiv 2025.12](https://arxiv.org/abs/2512.11508)
 
 
 ## 3D Foundation Models' Application
-- [⭐️] **Hunyuan3D 1.0**, "Hunyuan3D 1.0: A Unified Framework for Text-to-3D and Image-to-3D Generation". [arXiv 2024.11](https://arxiv.org/abs/2411.02293)
+- **Hunyuan3D 1.0**, "Hunyuan3D 1.0: A Unified Framework for Text-to-3D and Image-to-3D Generation". [arXiv 2024.11](https://arxiv.org/abs/2411.02293)
 - [⭐️] "Video World Models with Long-term Spatial Memory". [arXiv 2025.06](https://arxiv.org/abs/2506.05284)
-- [⭐️] **Hunyuan3D 2.5**, "Hunyuan3D 2.5: Towards High-Fidelity 3D Assets Generation with Ultimate Details". [arXiv 2025.06](https://arxiv.org/abs/2506.1650)
-- [⭐️] **HunyuanWorld 1.0**, "HunyuanWorld 1.0: Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels". [arXiv 2025.07](https://arxiv.org/abs/2507.21809)
-- [⭐️] **HunyuanWorld 1.0**, "HunyuanWorld 1.0: Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels". [arXiv 2025.07](https://arxiv.org/abs/2507.21809)
+- **Hunyuan3D 2.5**, "Hunyuan3D 2.5: Towards High-Fidelity 3D Assets Generation with Ultimate Details". [arXiv 2025.06](https://arxiv.org/abs/2506.1650)
+- **HunyuanWorld 1.0**, "HunyuanWorld 1.0: Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels". [arXiv 2025.07](https://arxiv.org/abs/2507.21809)
+- **HunyuanWorld 1.0**, "HunyuanWorld 1.0: Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels". [arXiv 2025.07](https://arxiv.org/abs/2507.21809)
 
 
 
