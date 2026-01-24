@@ -51,9 +51,9 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 ---
 
 ## Surveys 
+- "Recent Advances in 3D Object and Scene Generation: A Survey". [arXiv 2025.04](https://arxiv.org/abs/2504.11734)
 - "3D Scene Generation: A Survey". [arXiv 2025.05](https://arxiv.org/abs/2505.05474v1)
 - "Advances in Feed-Forward 3D Reconstruction and View Synthesis: A Survey". [arXiv 2025.07](https://arxiv.org/abs/2507.14501)
-
 
 
 ## End to End 3D Reconstruction 
@@ -97,6 +97,10 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - [⭐️] **TRELLIS**, "Structured 3D Latents for Scalable and Versatile 3D Generation". [arXiv 2024.12](https://arxiv.org/pdf/2412.01506)
 - [⭐️] **LYRA**, "LYRA: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation". [arXiv 2025.09](https://arxiv.org/pdf/2509.19296v1)
 - **GeoWorld**, "GeoWorld: Unlocking the Potential of Geometry Models to Facilitate High-Fidelity 3D Scene Generation". [arXiv 2025.11](https://arxiv.org/pdf/2511.23191)
+- **CoMoVi**, "CoMoVi: Co-Generation of 3D Human Motions and Realistic Videos". [arXiv 2026.01](https://arxiv.org/pdf/2601.10632)
+
+
+
 
 ## 3D Perception
 - [⭐️] **SAM3D**, "SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model". [arXiv 2024.01](https://arxiv.org/abs/2306.02245)
@@ -106,6 +110,12 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - **DA^2**, "DA^2: Depth Anything in Any Direction". [arXiv 2025.09](https://arxiv.org/abs/2509.26618)
 - **AnyDepth**, "AnyDepth: Depth Estimation Made Easy". [arXiv 2026.01](https://arxiv.org/abs/2601.02760)
 - **OpenVoxel**, "OpenVoxel: Training-Free Grouping and Captioning Voxels for Open-Vocabulary 3D Scene Understanding". [arXiv 2026.01](https://arxiv.org/abs/2601.09575)
+- **Think3D**, "Think3D: Thinking with Space for Spatial Reasoning". [arXiv 2026.01](https://arxiv.org/abs/2601.13029)
+- **RoboBrain 2.5**, "RoboBrain 2.5: Depth in Sight, Time in Mind". [arXiv 2026.01](https://arxiv.org/abs/2601.14352)
+- **Map2Thought**, "Map2Thought: Explicit 3D Spatial Reasoning via Metric Cognitive Maps". [arXiv 2026.01](https://arxiv.org/abs/2601.11442)
+- **MVGGT**, "MVGGT: Multimodal Visual Geometry Grounded Transformer for Multiview 3D Referring Expression Segmentation". [arXiv 2026.01](https://arxiv.org/abs/2601.06874)
+
+
 
 
 ## 4D Reconstruction
@@ -119,6 +129,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - [⭐️] **VGGT4D**, "VGGT4D: Mining Motion Cues in Visual Geometry Transformers for 4D Scene Reconstruction". [arXiv 2025.11](https://arxiv.org/abs/2511.19971)
 - **D4RT**, "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time". [arXiv 2025.12](https://arxiv.org/abs/2512.08924)
 - **V-DPM**, "V-DPM: 4D Video Reconstruction with Dynamic Point Maps". [arXiv 2026.01](https://arxiv.org/abs/2601.09499)
+- **Motion 3-to-4**, "Motion 3-to-4: 3D Motion Reconstruction for 4D Synthesis". [arXiv 2026.01](https://arxiv.org/abs/2601.14253)
 
 
 ### non-E2E 4D Reconstruction
@@ -142,6 +153,8 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - **3AM**, "3AM: Segment Anything with Geometric Consistency in Videos". [arXiv 2026.01](https://arxiv.org/abs/2601.08831)
 - "Choreographing a World of Dynamic Objects". [arXiv 2026.01](https://arxiv.org/abs/2601.04194)
 - [⭐️] **NeoVerse**, "NeoVerse: Enhancing 4D World Model with in-the-wild Monocular Videos". [arXiv 2026.01](https://arxiv.org/abs/2601.00393)
+- [⭐️] **VerseCrafter**, "VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control". [arXiv 2026.01](https://arxiv.org/abs/2601.05138)
+- **ReScene4D**, "ReScene4D: Temporally Consistent Semantic Instance Segmentation of Evolving Indoor 3D Scenes". [arXiv 2026.01](https://arxiv.org/abs/2601.11508)
 
 
 
