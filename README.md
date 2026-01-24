@@ -173,9 +173,9 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 ## Related Analysis
 - [⭐️] "How Much 3D Do Video Foundation Models Encode?". [arXiv 2025.07](https://arxiv.org/abs/2512.19949)
-- [⭐️] "What Is The Best 3D Scene Representation for
-Robotics? From Geometric to Foundation Models". [arXiv 2025.12](https://arxiv.org/abs/2512.03422v1)
+- [⭐️] "What Is The Best 3D Scene Representation for Robotics? From Geometric to Foundation Models". [arXiv 2025.12](https://arxiv.org/abs/2512.03422v1)
 - [⭐️] "Understanding multi-view transformers" [arXiv 2025.10](https://arxiv.org/abs/2510.24907)
+- "From Rays to Projections: Better Inputs for Feed-Forward View Synthesis". [arXiv 2026.01](http://arxiv.org/abs/2601.05116)
 - "How Much 3D Do Video Foundation Models Encode?". [arXiv 2025.07](https://arxiv.org/abs/2512.19949)
 - "What Is The Best 3D Scene Representation for Robotics? From Geometric to Foundation Models". [arXiv 2025.12](https://arxiv.org/abs/2512.03422v1)
 - "On Geometric Understanding and Learned Data Priors in VGGT". [arXiv 2025.12](https://arxiv.org/abs/2512.11508)
