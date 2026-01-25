@@ -37,8 +37,8 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
   - [3D Generation](#3d-generation)
   - [3D Perception](#3d-perception)
   - [4D Reconstruction](#4d-reconstruction)
-    - [E2E 4D Reconstruction](#e2e-4d-reconstruction)
-    - [non-E2E 4D Reconstruction](#non-e2e-4d-reconstruction)
+    - [Feed-forward 4D Reconstruction](#feed-forward-4d-reconstruction)
+    - [Not Feed-forward 4D Reconstruction](#not-feed-forward-4d-reconstruction)
   - [4D Perception](#4d-perception)
   - [3D Free Method](#3d-free-method)
   - [Related Analysis](#related-analysis)
@@ -123,7 +123,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 
 ## 4D Reconstruction
-### E2E 4D Reconstruction
+### Feed-forward 4D Reconstruction
 - [⭐️] **4D-VGGT**, "4D-VGGT: A General Foundation Model with SpatioTemporal Awareness for Dynamic Scene Geometry Estimation". [arXiv 2025.11](https://arxiv.org/abs/2511.18416)
 - [⭐️] **VGGT4D**, "VGGT4D: Mining Motion Cues in Visual Geometry Transformers for 4D Scene Reconstruction". [arXiv 2025.11](https://arxiv.org/abs/2511.19971)
 - [⭐️] **Gaussian-Flow**, "Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle". [arXiv 2023.12](https://arxiv.org/abs/2312.03431)
@@ -139,9 +139,8 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - **Motion 3-to-4**, "Motion 3-to-4: 3D Motion Reconstruction for 4D Synthesis". [arXiv 2026.01](https://arxiv.org/abs/2601.14253)
 
 
-### non-E2E 4D Reconstruction
+### Not Feed-forward 4D Reconstruction
 - [⭐️] **4DGS**, "4D Gaussian Splatting for Real-Time Dynamic Scene Rendering". [arXiv 2023.10](https://arxiv.org/abs/2310.08528)
-- **Gaussian-Flow**, "Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle". [arXiv 2023.12](https://arxiv.org/abs/2312.03431)
 - **SplatFields**, "Neural Gaussian Splats for Sparse 3D and 4D Reconstruction". [arXiv 2024.9](https://arxiv.org/abs/2409.11211)
 - [⭐️] "Interaction-Aware 4D Gaussian Splatting for Dynamic Hand-Object Interaction Reconstruction". [arXiv 2025.11](https://arxiv.org/abs/2511.14540)
 - **Sparse4DGS**"Sparse4DGS: 4D Gaussian Splatting for Sparse-Frame Dynamic Scene Reconstruction". [arXiv 2025.11](https://arxiv.org/abs/2511.07122)
@@ -184,11 +183,9 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 ## Foundation Models
 ### Generation/Reconstruction Foundation Models
 - **Hunyuan3D 1.0**, "Hunyuan3D 1.0: A Unified Framework for Text-to-3D and Image-to-3D Generation". [arXiv 2024.11](https://arxiv.org/abs/2411.02293)
-- **Wan**, "Wan: Open and Advanced Large-Scale Video Generative Models". [arXiv 2025.03](https://arxiv.org/abs/2503.20314v2)
-Wan: Open and Advanced Large-Scale Video 
 - **Hunyuan3D 2.5**, "Hunyuan3D 2.5: Towards High-Fidelity 3D Assets Generation with Ultimate Details". [arXiv 2025.06](https://arxiv.org/abs/2506.1650)
 - **HunyuanWorld 1.0**, "HunyuanWorld 1.0: Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels". [arXiv 2025.07](https://arxiv.org/abs/2507.21809)
-
+- **Wan**, "Wan: Open and Advanced Large-Scale Video Generative Models". [arXiv 2025.03](https://arxiv.org/abs/2503.20314v2)
 
 ### Physical Foundation Models
 - [⭐️] **Cosmos**, "Cosmos World Foundation Model Platform for Physical AI". [arXiv 2025.01](https://arxiv.org/abs/2501.03575v3)
