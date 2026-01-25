@@ -34,10 +34,9 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
   - [Online 3R/SLAM](#online-3rslam)
     - [Online 3R](#online-3r)
     - [SLAM](#slam)
-  - [4D Reconstruction](#4d-reconstruction)
   - [3D Generation](#3d-generation)
   - [3D Perception](#3d-perception)
-  - [4D Reconstruction](#4d-reconstruction-1)
+  - [4D Reconstruction](#4d-reconstruction)
     - [E2E 4D Reconstruction](#e2e-4d-reconstruction)
     - [non-E2E 4D Reconstruction](#non-e2e-4d-reconstruction)
   - [4D Perception](#4d-perception)
@@ -89,27 +88,13 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 ### SLAM
 - [⭐️] **SLAM-Former**, "SLAM-Former: Putting SLAM into One Transformer". [arXiv 2025.09](https://arxiv.org/abs/2509.16909v1)
 - [⭐️] **VGGT-SLAM**, "VGGT-SLAM: Dense RGB SLAM Optimized on the SL(4) Manifold". [arXiv 2025.09](https://arxiv.org/abs/2505.12549)
-
-
-## 4D Reconstruction
-- [⭐️] **4D-VGGT**, "4D-VGGT: A General Foundation Model with SpatioTemporal Awareness for Dynamic Scene Geometry Estimation". [arXiv 2025.11](https://arxiv.org/abs/2511.18416)
-- [⭐️] **VGGT4D**, "VGGT4D: Mining Motion Cues in Visual Geometry Transformers for 4D Scene Reconstruction". [arXiv 2025.11](https://arxiv.org/abs/2511.19971)
-- [⭐️] **Gaussian-Flow**, "Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle". [arXiv 2023.12](https://arxiv.org/abs/2312.03431)
-- [⭐️] **Shape of Motion**, "Shape of Motion: 4D Reconstruction from a Single Video". [arXiv 2024.7](https://arxiv.org/abs/2407.13764)
-- [⭐️] **St4RTrack**, "St4RTrack: Simultaneous 4D Reconstruction and Tracking in the World". [arXiv 2025.4](https://arxiv.org/abs/2504.13152)
-- [⭐️] **One4D**, "One4D: Unified 4D Generation and Reconstruction via Decoupled LoRA Control". [arXiv 2025.11](https://arxiv.org/abs/2511.18922)
-- [⭐️] **V-DPM**, "V-DPM: 4D Video Reconstruction with Dynamic Point Maps". [arXiv 2026.01](https://arxiv.org/abs/2601.09499)
-- **SplatFields**, "Neural Gaussian Splats for Sparse 3D and 4D Reconstruction". [arXiv 2024.9](https://arxiv.org/abs/2409.11211)
-- **L4GM**, "L4GM: Large 4D Gaussian Reconstruction Model". [arXiv 2024.7](https://arxiv.org/abs/2406.10324)
--  **D4RT**, "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time". [arXiv 2025.12](https://arxiv.org/abs/2512.08924)
-- **MASt3R-SLAM**, "MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors". [arXiv 2024.12](https://arxiv.org/abs/2412.12392v2)
 - **SLAM3R**, "SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos". [arXiv 2024.12](https://arxiv.org/abs/2412.09401)
+- **MASt3R-SLAM**, "MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors". [arXiv 2024.12](https://arxiv.org/abs/2412.12392v2)
 - **GRS-SLAM3R**, "GRS-SLAM3R: Real-Time Dense SLAM with Gated Recurrent State". [arXiv 2025.09](https://arxiv.org/abs/2509.23737v1)
-- **SLAM-Former**, "SLAM-Former: Putting SLAM into One Transformer". [arXiv 2025.09](https://arxiv.org/abs/2509.16909v1)
-- **VGGT-SLAM**, "VGGT-SLAM: Dense RGB SLAM Optimized on the SL(4) Manifold". [arXiv 2025.09](https://arxiv.org/abs/2505.12549)
+
+
 
 ## 3D Generation
-- **Michelangelo**, "Michelangelo: Conditional 3D Shape Generation based on Shape-Image-Text Aligned Latent Representation"[arXiv 2023.06](https://arxiv.org/abs/2306.17115)
 - [⭐️] **Zero123++**, "Zero123++: a Single Image to Consistent Multi-view Diffusion Base Model"[arXiv 2023.10](https://arxiv.org/abs/2310.15110)
 - [⭐️] **LRM**, "LRM: Large Reconstruction Model for Single Image to 3D"[arXiv 2023.11](https://arxiv.org/abs/2311.04400)
 - [⭐️] **LGM**, "LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation". [arXiv 2024.02](https://arxiv.org/abs/2402.05054)
@@ -117,7 +102,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - [⭐️] **LYRA**, "LYRA: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation". [arXiv 2025.09](https://arxiv.org/pdf/2509.19296v1)
 - **GeoWorld**, "GeoWorld: Unlocking the Potential of Geometry Models to Facilitate High-Fidelity 3D Scene Generation". [arXiv 2025.11](https://arxiv.org/pdf/2511.23191)
 - **CoMoVi**, "CoMoVi: Co-Generation of 3D Human Motions and Realistic Videos". [arXiv 2026.01](https://arxiv.org/pdf/2601.10632)
-
+- **Michelangelo**, "Michelangelo: Conditional 3D Shape Generation based on Shape-Image-Text Aligned Latent Representation"[arXiv 2023.06](https://arxiv.org/abs/2306.17115)
 
 
 
@@ -139,22 +124,24 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 ## 4D Reconstruction
 ### E2E 4D Reconstruction
-- **Shape of Motion**, "Shape of Motion: 4D Reconstruction from a Single Video". [arXiv 2024.07](https://arxiv.org/abs/2407.13764)
-- **CAT4D**, "CAT4D: Create Anything in 4D with Multi-View Video Diffusion Models". [arXiv 2024.11](https://arxiv.org/abs/2411.18613)
-- **St4RTrack**, "St4RTrack: Simultaneous 4D Reconstruction and Tracking in the World". [arXiv 2025.04](https://arxiv.org/abs/2504.13152)
-- **C4D**, "C4D: 4D Made from 3D through Dual Correspondences". [arXiv 2025.10](https://arxiv.org/abs/2510.14960)
-- **One4D**, "One4D: Unified 4D Generation and Reconstruction via Decoupled LoRA Control". [arXiv 2025.11](https://arxiv.org/abs/2511.18922)
 - [⭐️] **4D-VGGT**, "4D-VGGT: A General Foundation Model with SpatioTemporal Awareness for Dynamic Scene Geometry Estimation". [arXiv 2025.11](https://arxiv.org/abs/2511.18416)
 - [⭐️] **VGGT4D**, "VGGT4D: Mining Motion Cues in Visual Geometry Transformers for 4D Scene Reconstruction". [arXiv 2025.11](https://arxiv.org/abs/2511.19971)
-- **D4RT**, "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time". [arXiv 2025.12](https://arxiv.org/abs/2512.08924)
-- **V-DPM**, "V-DPM: 4D Video Reconstruction with Dynamic Point Maps". [arXiv 2026.01](https://arxiv.org/abs/2601.09499)
+- [⭐️] **Gaussian-Flow**, "Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle". [arXiv 2023.12](https://arxiv.org/abs/2312.03431)
+- [⭐️] **Shape of Motion**, "Shape of Motion: 4D Reconstruction from a Single Video". [arXiv 2024.7](https://arxiv.org/abs/2407.13764)
+- [⭐️] **St4RTrack**, "St4RTrack: Simultaneous 4D Reconstruction and Tracking in the World". [arXiv 2025.4](https://arxiv.org/abs/2504.13152)
+- [⭐️] **One4D**, "One4D: Unified 4D Generation and Reconstruction via Decoupled LoRA Control". [arXiv 2025.11](https://arxiv.org/abs/2511.18922)
+- [⭐️] **V-DPM**, "V-DPM: 4D Video Reconstruction with Dynamic Point Maps". [arXiv 2026.01](https://arxiv.org/abs/2601.09499)
+- **SplatFields**, "Neural Gaussian Splats for Sparse 3D and 4D Reconstruction". [arXiv 2024.9](https://arxiv.org/abs/2409.11211)
+- **L4GM**, "L4GM: Large 4D Gaussian Reconstruction Model". [arXiv 2024.7](https://arxiv.org/abs/2406.10324)
+- [⭐️] **D4RT**, "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time". [arXiv 2025.12](https://arxiv.org/abs/2512.08924)
+- **CAT4D**, "CAT4D: Create Anything in 4D with Multi-View Video Diffusion Models". [arXiv 2024.11](https://arxiv.org/abs/2411.18613)
+- **C4D**, "C4D: 4D Made from 3D through Dual Correspondences". [arXiv 2025.10](https://arxiv.org/abs/2510.14960)
 - **Motion 3-to-4**, "Motion 3-to-4: 3D Motion Reconstruction for 4D Synthesis". [arXiv 2026.01](https://arxiv.org/abs/2601.14253)
 
 
 ### non-E2E 4D Reconstruction
-- [⭐️] "4D Gaussian Splatting for Real-Time Dynamic Scene Rendering". [arXiv 2023.10](https://arxiv.org/abs/2310.08528)
+- [⭐️] **4DGS**, "4D Gaussian Splatting for Real-Time Dynamic Scene Rendering". [arXiv 2023.10](https://arxiv.org/abs/2310.08528)
 - **Gaussian-Flow**, "Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle". [arXiv 2023.12](https://arxiv.org/abs/2312.03431)
-- **L4GM**, "L4GM: Large 4D Gaussian Reconstruction Model". [arXiv 2024.7](https://arxiv.org/abs/2406.10324)
 - **SplatFields**, "Neural Gaussian Splats for Sparse 3D and 4D Reconstruction". [arXiv 2024.9](https://arxiv.org/abs/2409.11211)
 - [⭐️] "Interaction-Aware 4D Gaussian Splatting for Dynamic Hand-Object Interaction Reconstruction". [arXiv 2025.11](https://arxiv.org/abs/2511.14540)
 - **Sparse4DGS**"Sparse4DGS: 4D Gaussian Splatting for Sparse-Frame Dynamic Scene Reconstruction". [arXiv 2025.11](https://arxiv.org/abs/2511.07122)
