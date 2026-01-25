@@ -32,7 +32,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
   - [Surveys](#surveys)
   - [End to End 3D Reconstruction](#end-to-end-3d-reconstruction)
   - [Online 3R/SLAM](#online-3rslam)
-    - [Online 3R](#online-3r)
+    - [3R](#3r)
     - [SLAM](#slam)
   - [3D Generation](#3d-generation)
   - [3D Perception](#3d-perception)
@@ -45,7 +45,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
   - [Foundation Models](#foundation-models)
     - [Generation/Reconstruction Foundation Models](#generationreconstruction-foundation-models)
     - [Physical Foundation Models](#physical-foundation-models)
-  - [Aplplications of 3D Vision Models](#aplplications-of-3d-vision-models)
+  - [Applications of 3D Vision Models](#applications-of-3d-vision-models)
   - [Acknowledgements](#acknowledgements)
   - [Citation](#citation)
 
@@ -73,7 +73,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 
 ## Online 3R/SLAM
-### Online 3R
+### 3R
 - [⭐️] **Spann3R**, "3D Reconstruction with Spatial Memory". [arXiv 2024.08](https://arxiv.org/abs/2408.16061)
 - [⭐️] **CUT3R**, "Continuous 3D Perception Model with Persistent State". [arXiv 2025.01](https://arxiv.org/abs/2501.12387)
 - [⭐️] **Point3R**, "Point3R: Streaming 3D Reconstruction with Explicit Spatial Pointer Memory". [arXiv 2025.07](https://arxiv.org/abs/2507.02863)
@@ -193,7 +193,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 Physical AI". [arXiv 2025.11](https://arxiv.org/abs/2511.00062v1)  [cosmos-predict2.5](https://github.com/nvidia-cosmos/cosmos-predict2.5)  [cosmos-transfer2.5](https://github.com/nvidia-cosmos/cosmos-transfer2.5)  [cosmos-reason1](https://github.com/nvidia-cosmos/cosmos-reason1)
 
 
-## Aplplications of 3D Vision Models
+## Applications of 3D Vision Models
 - [⭐️] "Video World Models with Long-term Spatial Memory". [arXiv 2025.06](https://arxiv.org/abs/2506.05284)
 - **SPAgent**, "Think3D: Thinking with Space for Spatial Reasoning". [arXiv 2026.01](https://arxiv.org/abs/2601.13029)
 
