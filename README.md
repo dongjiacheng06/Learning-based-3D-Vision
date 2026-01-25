@@ -214,7 +214,7 @@ If you find this repository useful, please consider citing it:
 @misc{learningbased3dvision,
   title        = {Learning-based 3D Vision: A curated list of representative works in learning-based 3D vision},
   author       = {Dong, Jiacheng, Huan Li and Contributors},
-  howpublished = {\url{https://github.com/dongjiacheng06/Awesome-3D-papers}},
+  howpublished = {\url{https://github.com/dongjiacheng06/Learning-based-3D-Vision}},
   year         = {2026}
 }
 
