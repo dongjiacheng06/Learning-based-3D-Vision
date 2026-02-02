@@ -9,20 +9,25 @@ Thanks for helping improve this list of learning-based 3D vision papers. You are
 
 ## Add a paper
 1. Find the best category in `README.md`.
-2. Insert the entry in chronological order (YYYY.MM ascending) within that category.
+2. Insert the entry in **reverse chronological order** (newest first) within that category.
 3. Keep the formatting consistent with nearby items.
 
-Recommended format:
+### Format with shields.io badges
+
+Basic format (arXiv only):
 ```md
-- **ShortName**, "Full Paper Title". [arXiv 2024.01](https://arxiv.org/abs/xxxx.xxxxx)
+- **ShortName**, "Full Paper Title". [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
 ```
 
-Optional code link:
+With GitHub code link:
 ```md
-- **ShortName**, "Full Paper Title". [CVPR 2024](https://openaccess.thecvf.com/) [code](https://github.com/org/repo)
+- **ShortName**, "Full Paper Title". [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/org/repo)
 ```
 
-If a paper is a must-read, prefix the item with the same "Recommended" marker shown in the README Legend.
+If a paper is a must-read, prefix the item with `[⭐️]`:
+```md
+- [⭐️] **ShortName**, "Full Paper Title". [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
+```
 
 ## Add or update categories
 - Please avoid changing existing categories unless there is a strong reason; prefer adding papers to current sections.
