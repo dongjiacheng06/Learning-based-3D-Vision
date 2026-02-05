@@ -27,26 +27,6 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 ## Categories
 
-<style>
-details summary {
-  cursor: pointer;
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
-details summary::-webkit-details-marker {
-  display: none;
-}
-details > summary::after {
-  content: ' ▽';
-  font-size: 0.65em;
-  margin-left: 6px;
-  line-height: 1;
-}
-details[open] > summary::after {
-  content: ' ▼';
-}
-</style>
 
 <ul style="list-style: none; padding: 0;">
 <li style="margin-left: 0;"><a href="#surveys">Surveys</a></li>
@@ -90,6 +70,8 @@ details[open] > summary::after {
 > **Legend**
 > ⭐️ Recommended / Must-read
 > **Last Updated:** 2026-02-03  
+
+# 3D Vision Methods
 ## Surveys
 - "Advances in Feed-Forward 3D Reconstruction and View Synthesis: A Survey". [![arXiv](https://img.shields.io/badge/arXiv-2507.14501-b31b1b.svg)](https://arxiv.org/abs/2507.14501)
 - "3D Scene Generation: A Survey". [![arXiv](https://img.shields.io/badge/arXiv-2505.05474-b31b1b.svg)](https://arxiv.org/abs/2505.05474v1)
@@ -222,6 +204,18 @@ details[open] > summary::after {
 - [⭐️] **Cosmos2.5**, "World Simulation with Video Foundation Models for
 Physical AI". [![arXiv](https://img.shields.io/badge/arXiv-2511.00062-b31b1b.svg)](https://arxiv.org/abs/2511.00062v1) [![GitHub](https://img.shields.io/badge/GitHub-predict2.5-blue)](https://github.com/nvidia-cosmos/cosmos-predict2.5) [![GitHub](https://img.shields.io/badge/GitHub-transfer2.5-blue)](https://github.com/nvidia-cosmos/cosmos-transfer2.5) [![GitHub](https://img.shields.io/badge/GitHub-reason1-blue)](https://github.com/nvidia-cosmos/cosmos-reason1)
 - [⭐️] **Cosmos**, "Cosmos World Foundation Model Platform for Physical AI". [![arXiv](https://img.shields.io/badge/arXiv-2501.03575-b31b1b.svg)](https://arxiv.org/abs/2501.03575v3) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/NVIDIA/Cosmos)
+
+
+
+# 3D Vision Applications
+### Autonomous Driving
+- **OccLLaMA**, "An Occupancy-Language-Action Generative World Model for Autonomous Driving". [arXiv](https://arxiv.org/abs/2409.03272v1)
+- **OccWorld**, "Learning a 3D Occupancy World Model for Autonomous Driving". [arXiv](https://arxiv.org/abs/2311.16038v1)
+- **UniAD** (Planning-oriented Autonomous Driving), "Planning-oriented Autonomous Driving". [arXiv](https://arxiv.org/abs/2212.10156v2)
+- **UniUGP**, "Unifying Understanding, Generation, and Planning For End-to-end Autonomous Driving". [arXiv](https://arxiv.org/abs/2512.09864v1)
+- **EOT-WM**, "Other Vehicle Trajectories Are Also Needed: A Driving World Model Unifies Ego-Other Vehicle Trajectories in Video Latent Space". [arXiv](https://arxiv.org/abs/2503.09215v3)
+
+
 
 
 
