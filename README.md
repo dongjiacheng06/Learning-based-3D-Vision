@@ -90,32 +90,6 @@ details[open] > summary::after {
 > **Legend**
 > ⭐️ Recommended / Must-read
 > **Last Updated:** 2026-02-03  
-## Categories
-
-- [Surveys](#surveys)
-- [End to End 3D Reconstruction](#end-to-end-3d-reconstruction)
-- [Online 3R/SLAM](#online-3rslam) ▸
-  - [Online 3R](#online-3r)
-  - [SLAM](#slam)
-- [3D Generation](#3d-generation)
-- [3D Perception](#3d-perception)
-- [4D Reconstruction](#4d-reconstruction) ▸
-  - [E2E 4D Reconstruction](#e2e-4d-reconstruction)
-  - [non-E2E 4D Reconstruction](#non-e2e-4d-reconstruction)
-- [4D Perception](#4d-perception)
-- [3D Free Method](#3d-free-method)
-- [Related Analysis](#related-analysis)
-- [Foundation Models](#foundation-models) ▸
-  - [Generation/Reconstruction Foundation Models](#generationreconstruction-foundation-models)
-  - [Physical Foundation Models](#physical-foundation-models)
-- [Acknowledgements](#acknowledgements)
-- [Citation](#citation)
-
-> **Legend**
-> ⭐️ Recommended / Must-read
-> **Last Updated:** 2026-02-03  
----
-
 ## Surveys
 - "Advances in Feed-Forward 3D Reconstruction and View Synthesis: A Survey". [![arXiv](https://img.shields.io/badge/arXiv-2507.14501-b31b1b.svg)](https://arxiv.org/abs/2507.14501)
 - "3D Scene Generation: A Survey". [![arXiv](https://img.shields.io/badge/arXiv-2505.05474-b31b1b.svg)](https://arxiv.org/abs/2505.05474v1)
