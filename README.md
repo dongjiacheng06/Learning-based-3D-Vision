@@ -27,6 +27,24 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 ## Categories
 
+<style>
+details summary {
+  cursor: pointer;
+  list-style: none;
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+details > summary::before {
+  content: '▽ ';
+  font-size: 0.7em;
+  margin-right: 4px;
+}
+details[open] > summary::before {
+  content: '▼ ';
+}
+</style>
+
 <ul>
 <li><a href="#surveys">Surveys</a></li>
 <li><a href="#end-to-end-3d-reconstruction">End to End 3D Reconstruction</a></li>
