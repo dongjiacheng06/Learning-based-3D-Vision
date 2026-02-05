@@ -116,7 +116,70 @@ details[open] > summary::after {
 > **Last Updated:** 2026-02-03  
 ---
 
+## Surveys
+- "Advances in Feed-Forward 3D Reconstruction and View Synthesis: A Survey". [![arXiv](https://img.shields.io/badge/arXiv-2507.14501-b31b1b.svg)](https://arxiv.org/abs/2507.14501)
+- "3D Scene Generation: A Survey". [![arXiv](https://img.shields.io/badge/arXiv-2505.05474-b31b1b.svg)](https://arxiv.org/abs/2505.05474v1)
+- "Recent Advances in 3D Object and Scene Generation: A Survey". [![arXiv](https://img.shields.io/badge/arXiv-2504.11734-b31b1b.svg)](https://arxiv.org/abs/2504.11734)
 
+
+## End to End 3D Reconstruction
+- [⭐️] **E-RayZer**, "E-RayZer: Self-supervised 3D Reconstruction as Spatial Visual Pre-training". [![arXiv](https://img.shields.io/badge/arXiv-2512.10950-b31b1b.svg)](https://arxiv.org/abs/2512.10950) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/hwjiang1510/E-RayZer)
+- [⭐️] **DA3**, "Depth Anything 3: Recovering the Visual Space from Any Views". [![arXiv](https://img.shields.io/badge/arXiv-2511.10647-b31b1b.svg)](https://arxiv.org/abs/2511.10647) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/ByteDance-Seed/Depth-Anything-3)
+- **OmniVGGT**, "OmniVGGT: Omni-Modality Driven Visual Geometry Grounded Transformer". [![arXiv](https://img.shields.io/badge/arXiv-2511.10560-b31b1b.svg)](https://arxiv.org/abs/2511.10560v1) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Livioni/OmniVGGT-official)
+- **MapAnything**, "MapAnything: Universal Feed-Forward Metric 3D Reconstruction". [![arXiv](https://img.shields.io/badge/arXiv-2509.13414-b31b1b.svg)](https://arxiv.org/abs/2509.13414v2) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/facebookresearch/map-anything)
+- [⭐️] **π^3**, "π^3: Permutation-Equivariant Visual Geometry Learning". [![arXiv](https://img.shields.io/badge/arXiv-2507.13347-b31b1b.svg)](https://arxiv.org/abs/2507.13347v2) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/yyfz/Pi3)
+- [⭐️] **VGGT**, "On Geometric Understanding and Learned Data Priors in VGGT". [![arXiv](https://img.shields.io/badge/arXiv-2503.11651-b31b1b.svg)](https://arxiv.org/abs/2503.11651) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/facebookresearch/vggt)
+- [⭐️] **NopoSplat**, "No Pose, No Problem: Surprisingly Simple 3D Gaussian Splats from Sparse Unposed Images". [![arXiv](https://img.shields.io/badge/arXiv-2410.24207-b31b1b.svg)](https://arxiv.org/abs/2410.24207) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/cvg/NoPoSplat)
+- [⭐️] **MVSplat**, "MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images". [![arXiv](https://img.shields.io/badge/arXiv-2403.14627-b31b1b.svg)](https://arxiv.org/abs/2403.14627) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/donydchen/mvsplat)
+- [⭐️] **DUSt3R**, "DUSt3R: Geometric 3D Vision Made Easy". [![arXiv](https://img.shields.io/badge/arXiv-2312.14132-b31b1b.svg)](https://arxiv.org/abs/2312.14132) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/naver/dust3r)
+- [⭐️] **CroCo**, "CroCo: Self-Supervised Pre-training for 3D Vision Tasks by Cross-View Completion". [![arXiv](https://img.shields.io/badge/arXiv-2210.10716-b31b1b.svg)](https://arxiv.org/abs/2210.10716) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/naver/croco)
+
+
+## Online 3R/SLAM
+### Online 3R
+-  **InfiniteVGGT**, "InfiniteVGGT: Visual Geometry Grounded Transformer for Endless Streams". [![arXiv](https://img.shields.io/badge/arXiv-2601.02281-b31b1b.svg)](https://arxiv.org/abs/2601.02281v1) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/AutoLab-SAI-SJTU/InfiniteVGGT)
+-  **XStreamVGGT**, "XStreamVGGT: Extremely Memory-Efficient Streaming Vision Geometry Grounded Transformer with KV Cache Compression". [![arXiv](https://img.shields.io/badge/arXiv-2601.01204-b31b1b.svg)](https://arxiv.org/abs/2601.01204v1)
+-  **TTT3R**, "TTT3R: 3D RECONSTRUCTION AS TEST-TIME TRAINING". [![arXiv](https://img.shields.io/badge/arXiv-2509.26645-b31b1b.svg)](https://arxiv.org/abs/2509.26645v3) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Inception3D/TTT3R)
+-  **G-CUT3R**, "G-CUT3R: Guided 3D Reconstruction with Camera and Depth Prior Integration". [![arXiv](https://img.shields.io/badge/arXiv-2508.11379-b31b1b.svg)](https://arxiv.org/abs/2508.11379v2)
+- [⭐️] **StreamVGGT**, "Streaming 4D Visual Geometry Transformer". [![arXiv](https://img.shields.io/badge/arXiv-2507.11539-b31b1b.svg)](https://arxiv.org/abs/2507.11539) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/wzzheng/StreamVGGT)
+- [⭐️] **Point3R**, "Point3R: Streaming 3D Reconstruction with Explicit Spatial Pointer Memory". [![arXiv](https://img.shields.io/badge/arXiv-2507.02863-b31b1b.svg)](https://arxiv.org/abs/2507.02863) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/YkiWu/Point3R)
+- [⭐️] **CUT3R**, "Continuous 3D Perception Model with Persistent State". [![arXiv](https://img.shields.io/badge/arXiv-2501.12387-b31b1b.svg)](https://arxiv.org/abs/2501.12387) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/CUT3R/CUT3R)
+- [⭐️] **Spann3R**, "3D Reconstruction with Spatial Memory". [![arXiv](https://img.shields.io/badge/arXiv-2408.16061-b31b1b.svg)](https://arxiv.org/abs/2408.16061) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/HengyiWang/spann3r)
+
+
+
+### SLAM
+- **VGGT-SLAM**, "VGGT-SLAM: Dense RGB SLAM Optimized on the SL(4) Manifold". [![arXiv](https://img.shields.io/badge/arXiv-2505.12549-b31b1b.svg)](https://arxiv.org/abs/2505.12549) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/MIT-SPARK/VGGT-SLAM)
+- **SLAM-Former**, "SLAM-Former: Putting SLAM into One Transformer". [![arXiv](https://img.shields.io/badge/arXiv-2509.16909-b31b1b.svg)](https://arxiv.org/abs/2509.16909v1)
+- **GRS-SLAM3R**, "GRS-SLAM3R: Real-Time Dense SLAM with Gated Recurrent State". [![arXiv](https://img.shields.io/badge/arXiv-2509.23737-b31b1b.svg)](https://arxiv.org/abs/2509.23737v1)
+- **SLAM3R**, "SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos". [![arXiv](https://img.shields.io/badge/arXiv-2412.09401-b31b1b.svg)](https://arxiv.org/abs/2412.09401) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/PKU-VCL-3DV/SLAM3R)
+- **MASt3R-SLAM**, "MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors". [![arXiv](https://img.shields.io/badge/arXiv-2412.12392-b31b1b.svg)](https://arxiv.org/abs/2412.12392v2) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/rmurai0610/MASt3R-SLAM)
+
+## 3D Generation
+- **CoMoVi**, "CoMoVi: Co-Generation of 3D Human Motions and Realistic Videos". [![arXiv](https://img.shields.io/badge/arXiv-2601.10632-b31b1b.svg)](https://arxiv.org/abs/2601.10632)
+- **GeoWorld**, "GeoWorld: Unlocking the Potential of Geometry Models to Facilitate High-Fidelity 3D Scene Generation". [![arXiv](https://img.shields.io/badge/arXiv-2511.23191-b31b1b.svg)](https://arxiv.org/abs/2511.23191)
+- [⭐️] **LYRA**, "LYRA: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation". [![arXiv](https://img.shields.io/badge/arXiv-2509.19296-b31b1b.svg)](https://arxiv.org/abs/2509.19296v1) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/nv-tlabs/lyra)
+- [⭐️] **TRELLIS**, "Structured 3D Latents for Scalable and Versatile 3D Generation". [![arXiv](https://img.shields.io/badge/arXiv-2412.01506-b31b1b.svg)](https://arxiv.org/abs/2412.01506) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/microsoft/TRELLIS)
+- [⭐️] **LGM**, "LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation". [![arXiv](https://img.shields.io/badge/arXiv-2402.05054-b31b1b.svg)](https://arxiv.org/abs/2402.05054) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/3DTopia/LGM)
+- [⭐️] **LRM**, "LRM: Large Reconstruction Model for Single Image to 3D". [![arXiv](https://img.shields.io/badge/arXiv-2311.04400-b31b1b.svg)](https://arxiv.org/abs/2311.04400) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/3DTopia/OpenLRM)
+- [⭐️] **Zero123++**, "Zero123++: a Single Image to Consistent Multi-view Diffusion Base Model". [![arXiv](https://img.shields.io/badge/arXiv-2310.15110-b31b1b.svg)](https://arxiv.org/abs/2310.15110) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/SUDO-AI-3D/zero123plus)
+- **Michelangelo**, "Michelangelo: Conditional 3D Shape Generation based on Shape-Image-Text Aligned Latent Representation". [![arXiv](https://img.shields.io/badge/arXiv-2306.17115-b31b1b.svg)](https://arxiv.org/abs/2306.17115) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/NeuralCarver/Michelangelo)
+
+
+
+
+## 3D Perception
+- **MVGGT**, "MVGGT: Multimodal Visual Geometry Grounded Transformer for Multiview 3D Referring Expression Segmentation". [![arXiv](https://img.shields.io/badge/arXiv-2601.06874-b31b1b.svg)](https://arxiv.org/abs/2601.06874)
+- **Map2Thought**, "Map2Thought: Explicit 3D Spatial Reasoning via Metric Cognitive Maps". [![arXiv](https://img.shields.io/badge/arXiv-2601.11442-b31b1b.svg)](https://arxiv.org/abs/2601.11442)
+- **RoboBrain 2.5**, "RoboBrain 2.5: Depth in Sight, Time in Mind". [![arXiv](https://img.shields.io/badge/arXiv-2601.14352-b31b1b.svg)](https://arxiv.org/abs/2601.14352)
+- **Think3D**, "Think3D: Thinking with Space for Spatial Reasoning". [![arXiv](https://img.shields.io/badge/arXiv-2601.13029-b31b1b.svg)](https://arxiv.org/abs/2601.13029)
+- **OpenVoxel**, "OpenVoxel: Training-Free Grouping and Captioning Voxels for Open-Vocabulary 3D Scene Understanding". [![arXiv](https://img.shields.io/badge/arXiv-2601.09575-b31b1b.svg)](https://arxiv.org/abs/2601.09575)
+- **AnyDepth**, "AnyDepth: Depth Estimation Made Easy". [![arXiv](https://img.shields.io/badge/arXiv-2601.02760-b31b1b.svg)](https://arxiv.org/abs/2601.02760)
+- **DA^2**, "DA^2: Depth Anything in Any Direction". [![arXiv](https://img.shields.io/badge/arXiv-2509.26618-b31b1b.svg)](https://arxiv.org/abs/2509.26618)
+- "Depth Anything at Any Condition". [![arXiv](https://img.shields.io/badge/arXiv-2507.01634-b31b1b.svg)](https://arxiv.org/abs/2507.01634)
+- [⭐️] "Depth Anything v2". [![arXiv](https://img.shields.io/badge/arXiv-2406.09414-b31b1b.svg)](https://arxiv.org/abs/2406.09414) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/DepthAnything/Depth-Anything-V2)
+- [⭐️] **Depth Anything**, "Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data". [![arXiv](https://img.shields.io/badge/arXiv-2401.10891-b31b1b.svg)](https://arxiv.org/abs/2401.10891) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/LiheYoung/Depth-Anything)
+- [⭐️] **SAM3D**, "SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model". [![arXiv](https://img.shields.io/badge/arXiv-2306.02245-b31b1b.svg)](https://arxiv.org/abs/2306.02245)
 
 ## 4D Reconstruction
 ### E2E 4D Reconstruction
