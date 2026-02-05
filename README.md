@@ -31,24 +31,27 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 details summary {
   cursor: pointer;
   list-style: none;
+  display: flex;
+  align-items: center;
 }
 details summary::-webkit-details-marker {
   display: none;
 }
-details > summary::before {
-  content: '▽ ';
-  font-size: 0.7em;
-  margin-right: 4px;
+details > summary::after {
+  content: ' ▽';
+  font-size: 0.65em;
+  margin-left: 6px;
+  line-height: 1;
 }
-details[open] > summary::before {
-  content: '▼ ';
+details[open] > summary::after {
+  content: ' ▼';
 }
 </style>
 
-<ul>
-<li><a href="#surveys">Surveys</a></li>
-<li><a href="#end-to-end-3d-reconstruction">End to End 3D Reconstruction</a></li>
-<li>
+<ul style="list-style: none; padding: 0;">
+<li style="margin-left: 0;"><a href="#surveys">Surveys</a></li>
+<li style="margin-left: 0;"><a href="#end-to-end-3d-reconstruction">End to End 3D Reconstruction</a></li>
+<li style="margin-left: 0;">
 <details>
 <summary><a href="#online-3rslam">Online 3R/SLAM</a></summary>
 <ul>
@@ -57,9 +60,9 @@ details[open] > summary::before {
 </ul>
 </details>
 </li>
-<li><a href="#3d-generation">3D Generation</a></li>
-<li><a href="#3d-perception">3D Perception</a></li>
-<li>
+<li style="margin-left: 0;"><a href="#3d-generation">3D Generation</a></li>
+<li style="margin-left: 0;"><a href="#3d-perception">3D Perception</a></li>
+<li style="margin-left: 0;">
 <details>
 <summary><a href="#4d-reconstruction">4D Reconstruction</a></summary>
 <ul>
@@ -68,10 +71,10 @@ details[open] > summary::before {
 </ul>
 </details>
 </li>
-<li><a href="#4d-perception">4D Perception</a></li>
-<li><a href="#3d-free-method">3D Free Method</a></li>
-<li><a href="#related-analysis">Related Analysis</a></li>
-<li>
+<li style="margin-left: 0;"><a href="#4d-perception">4D Perception</a></li>
+<li style="margin-left: 0;"><a href="#3d-free-method">3D Free Method</a></li>
+<li style="margin-left: 0;"><a href="#related-analysis">Related Analysis</a></li>
+<li style="margin-left: 0;">
 <details>
 <summary><a href="#foundation-models">Foundation Models</a></summary>
 <ul>
@@ -80,8 +83,8 @@ details[open] > summary::before {
 </ul>
 </details>
 </li>
-<li><a href="#acknowledgements">Acknowledgements</a></li>
-<li><a href="#citation">Citation</a></li>
+<li style="margin-left: 0;"><a href="#acknowledgements">Acknowledgements</a></li>
+<li style="margin-left: 0;"><a href="#citation">Citation</a></li>
 </ul>
 
 > **Legend**
