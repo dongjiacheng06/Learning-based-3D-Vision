@@ -26,33 +26,52 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 ---
 
 ## Categories
-- [Learning-based 3D Vision](#learning-based-3d-vision)
-  - [News \& Updates](#news--updates)
-  - [Categories](#categories)
-  - [Surveys](#surveys)
-  - [End to End 3D Reconstruction](#end-to-end-3d-reconstruction)
-  - [Online 3R/SLAM](#online-3rslam)
-    - [Online 3R](#online-3r)
-    - [SLAM](#slam)
-  - [3D Generation](#3d-generation)
-  - [3D Perception](#3d-perception)
-  - [4D Reconstruction](#4d-reconstruction)
-    - [E2E 4D Reconstruction](#e2e-4d-reconstruction)
-    - [non-E2E 4D Reconstruction](#non-e2e-4d-reconstruction)
-  - [4D Perception](#4d-perception)
-  - [3D Free Method](#3d-free-method)
-  - [Related Analysis](#related-analysis)
-  - [Foundation Models](#foundation-models)
-    - [Generation/Reconstruction Foundation Models](#generationreconstruction-foundation-models)
-    - [Physical Foundation Models](#physical-foundation-models)
-  - [Acknowledgements](#acknowledgements)
-  - [Citation](#citation)
+
+
+<ul style="list-style: none; padding: 0;">
+<li style="margin-left: 0;"><a href="#surveys">Surveys</a></li>
+<li style="margin-left: 0;"><a href="#end-to-end-3d-reconstruction">End to End 3D Reconstruction</a></li>
+<li style="margin-left: 0;">
+<details>
+<summary><a href="#online-3rslam">Online 3R/SLAM</a></summary>
+<ul>
+<li><a href="#online-3r">Online 3R</a></li>
+<li><a href="#slam">SLAM</a></li>
+</ul>
+</details>
+</li>
+<li style="margin-left: 0;"><a href="#3d-generation">3D Generation</a></li>
+<li style="margin-left: 0;"><a href="#3d-perception">3D Perception</a></li>
+<li style="margin-left: 0;">
+<details>
+<summary><a href="#4d-reconstruction">4D Reconstruction</a></summary>
+<ul>
+<li><a href="#e2e-4d-reconstruction">E2E 4D Reconstruction</a></li>
+<li><a href="#non-e2e-4d-reconstruction">non-E2E 4D Reconstruction</a></li>
+</ul>
+</details>
+</li>
+<li style="margin-left: 0;"><a href="#4d-perception">4D Perception</a></li>
+<li style="margin-left: 0;"><a href="#3d-free-method">3D Free Method</a></li>
+<li style="margin-left: 0;"><a href="#related-analysis">Related Analysis</a></li>
+<li style="margin-left: 0;">
+<details>
+<summary><a href="#foundation-models">Foundation Models</a></summary>
+<ul>
+<li><a href="#generationreconstruction-foundation-models">Generation/Reconstruction Foundation Models</a></li>
+<li><a href="#physical-foundation-models">Physical Foundation Models</a></li>
+</ul>
+</details>
+</li>
+<li style="margin-left: 0;"><a href="#acknowledgements">Acknowledgements</a></li>
+<li style="margin-left: 0;"><a href="#citation">Citation</a></li>
+</ul>
 
 > **Legend**
 > ⭐️ Recommended / Must-read
 > **Last Updated:** 2026-02-03  
----
 
+# 3D Vision Methods
 ## Surveys
 - "Advances in Feed-Forward 3D Reconstruction and View Synthesis: A Survey". [![arXiv](https://img.shields.io/badge/arXiv-2507.14501-b31b1b.svg)](https://arxiv.org/abs/2507.14501)
 - "3D Scene Generation: A Survey". [![arXiv](https://img.shields.io/badge/arXiv-2505.05474-b31b1b.svg)](https://arxiv.org/abs/2505.05474v1)
@@ -117,9 +136,6 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - [⭐️] "Depth Anything v2". [![arXiv](https://img.shields.io/badge/arXiv-2406.09414-b31b1b.svg)](https://arxiv.org/abs/2406.09414) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/DepthAnything/Depth-Anything-V2)
 - [⭐️] **Depth Anything**, "Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data". [![arXiv](https://img.shields.io/badge/arXiv-2401.10891-b31b1b.svg)](https://arxiv.org/abs/2401.10891) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/LiheYoung/Depth-Anything)
 - [⭐️] **SAM3D**, "SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model". [![arXiv](https://img.shields.io/badge/arXiv-2306.02245-b31b1b.svg)](https://arxiv.org/abs/2306.02245)
-
-
-
 
 ## 4D Reconstruction
 ### E2E 4D Reconstruction
@@ -191,6 +207,18 @@ Physical AI". [![arXiv](https://img.shields.io/badge/arXiv-2511.00062-b31b1b.svg
 
 
 
+# 3D Vision Applications
+### Autonomous Driving
+- **OccLLaMA**, "An Occupancy-Language-Action Generative World Model for Autonomous Driving". [arXiv](https://arxiv.org/abs/2409.03272v1)
+- **OccWorld**, "Learning a 3D Occupancy World Model for Autonomous Driving". [arXiv](https://arxiv.org/abs/2311.16038v1)
+- **UniAD** (Planning-oriented Autonomous Driving), "Planning-oriented Autonomous Driving". [arXiv](https://arxiv.org/abs/2212.10156v2)
+- **UniUGP**, "Unifying Understanding, Generation, and Planning For End-to-end Autonomous Driving". [arXiv](https://arxiv.org/abs/2512.09864v1)
+- **EOT-WM**, "Other Vehicle Trajectories Are Also Needed: A Driving World Model Unifies Ego-Other Vehicle Trajectories in Video Latent Space". [arXiv](https://arxiv.org/abs/2503.09215v3)
+
+
+
+
+
 
 ## Acknowledgements
 This project has largely drawn on the following projects:
@@ -208,4 +236,3 @@ If you find this repository useful, please consider citing it:
   howpublished = {\url{https://github.com/dongjiacheng06/Awesome-3D-papers}},
   year         = {2026}
 }
-
