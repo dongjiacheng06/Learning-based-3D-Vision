@@ -56,7 +56,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 <li style="margin-left: 0;"><a href="#related-analysis">Related Analysis</a></li>
 <li style="margin-left: 0;">
 <details>
-<summary><a href="#foundation-models">Foundation Models</a></summary>
+<summary><a href="#foundation-models-with-3D-awareness">Foundation Models</a></summary>
 <ul>
 <li><a href="#generationreconstruction-foundation-models">Generation/Reconstruction Foundation Models</a></li>
 <li><a href="#physical-foundation-models">Physical Foundation Models</a></li>
@@ -125,7 +125,8 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 
 ## 3D Perception
-- **MVGGT**, "MVGGT: Multimodal Visual Geometry Grounded Transformer for Multiview 3D Referring Expression Segmentation". [![arXiv](https://img.shields.io/badge/arXiv-2601.06874-b31b1b.svg)](https://arxiv.org/abs/2601.06874)
+- **LingBot-Depth**, "LingBot-Depth: Masked Depth Modeling for Spatial Perception". [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Robbyant/lingbot-depth)
+- **MVGGT**, "MVGGT: Multimodal Visual Geometry Grounded Transformer for Multiview 3D Referring Expression Segmentation". [![arXiv](https://img.shields.io/badge/arXiv-2601.06874-b31b1b.svg)](https://arxiv.org/abs/2601.06874)[![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/sosppxo/mvggt)
 - **Map2Thought**, "Map2Thought: Explicit 3D Spatial Reasoning via Metric Cognitive Maps". [![arXiv](https://img.shields.io/badge/arXiv-2601.11442-b31b1b.svg)](https://arxiv.org/abs/2601.11442)
 - **RoboBrain 2.5**, "RoboBrain 2.5: Depth in Sight, Time in Mind". [![arXiv](https://img.shields.io/badge/arXiv-2601.14352-b31b1b.svg)](https://arxiv.org/abs/2601.14352)
 - **Think3D**, "Think3D: Thinking with Space for Spatial Reasoning". [![arXiv](https://img.shields.io/badge/arXiv-2601.13029-b31b1b.svg)](https://arxiv.org/abs/2601.13029)
@@ -191,8 +192,10 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - "Feat2GS: Probing Visual Foundation Models with Gaussian Splatting". [![arXiv](https://img.shields.io/badge/arXiv-2412.09606-b31b1b.svg)](https://arxiv.org/abs/2412.09606)
 
 
-## Foundation Models
+## Foundation Models with 3D Awareness
 ### Generation/Reconstruction Foundation Models
+- [⭐️] **LingBot-VA**, "Causal World Modeling for Robot Control". [![arXiv](https://img.shields.io/badge/arXiv-2601.21998-b31b1b.svg)](https://arxiv.org/pdf/2601.21998)[![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Robbyant/lingbot-va)
+- [⭐️] **LingBot-World**, "Advancing Open-source World Models". [![arXiv](https://img.shields.io/badge/arXiv-2601.20540-b31b1b.svg)]](https://arxiv.org/pdf/2601.20540)[![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/robbyant/lingbot-world)
 - **HunyuanWorld 1.0**, "HunyuanWorld 1.0: Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels". [![arXiv](https://img.shields.io/badge/arXiv-2507.21809-b31b1b.svg)](https://arxiv.org/abs/2507.21809) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0)
 - **Hunyuan3D 2.5**, "Hunyuan3D 2.5: Towards High-Fidelity 3D Assets Generation with Ultimate Details". [![arXiv](https://img.shields.io/badge/arXiv-2506.1650-b31b1b.svg)](https://arxiv.org/abs/2506.1650) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Tencent-Hunyuan/Hunyuan3D-2)
 - [⭐️] "Video World Models with Long-term Spatial Memory". [![arXiv](https://img.shields.io/badge/arXiv-2506.05284-b31b1b.svg)](https://arxiv.org/abs/2506.05284)
