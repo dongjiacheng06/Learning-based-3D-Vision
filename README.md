@@ -68,8 +68,8 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 </ul>
 
 > **Legend**
-> ⭐️ Recommended / Must-read
-> **Last Updated:** 2026-02-03  
+> ⭐️ Recommended
+> **Last Updated:** 2026-02-11  
 
 # 3D Vision Methods
 ## Surveys
@@ -194,7 +194,6 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 ## Foundation Models with 3D Awareness
 ### Generation/Reconstruction Foundation Models
-- [⭐️] **LingBot-VA**, "Causal World Modeling for Robot Control". [![arXiv](https://img.shields.io/badge/arXiv-2601.21998-b31b1b.svg)](https://arxiv.org/pdf/2601.21998)[![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Robbyant/lingbot-va)
 - [⭐️] **LingBot-World**, "Advancing Open-source World Models". [![arXiv](https://img.shields.io/badge/arXiv-2601.20540-b31b1b.svg)]](https://arxiv.org/pdf/2601.20540)[![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/robbyant/lingbot-world)
 - **HunyuanWorld 1.0**, "HunyuanWorld 1.0: Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels". [![arXiv](https://img.shields.io/badge/arXiv-2507.21809-b31b1b.svg)](https://arxiv.org/abs/2507.21809) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0)
 - **Hunyuan3D 2.5**, "Hunyuan3D 2.5: Towards High-Fidelity 3D Assets Generation with Ultimate Details". [![arXiv](https://img.shields.io/badge/arXiv-2506.1650-b31b1b.svg)](https://arxiv.org/abs/2506.1650) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Tencent-Hunyuan/Hunyuan3D-2)
@@ -204,6 +203,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 
 ### Physical Foundation Models
+- [⭐️] **LingBot-VA**, "Causal World Modeling for Robot Control". [![arXiv](https://img.shields.io/badge/arXiv-2601.21998-b31b1b.svg)](https://arxiv.org/pdf/2601.21998)[![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Robbyant/lingbot-va)
 - [⭐️] **Cosmos2.5**, "World Simulation with Video Foundation Models for
 Physical AI". [![arXiv](https://img.shields.io/badge/arXiv-2511.00062-b31b1b.svg)](https://arxiv.org/abs/2511.00062v1) [![GitHub](https://img.shields.io/badge/GitHub-predict2.5-blue)](https://github.com/nvidia-cosmos/cosmos-predict2.5) [![GitHub](https://img.shields.io/badge/GitHub-transfer2.5-blue)](https://github.com/nvidia-cosmos/cosmos-transfer2.5) [![GitHub](https://img.shields.io/badge/GitHub-reason1-blue)](https://github.com/nvidia-cosmos/cosmos-reason1)
 - [⭐️] **Cosmos**, "Cosmos World Foundation Model Platform for Physical AI". [![arXiv](https://img.shields.io/badge/arXiv-2501.03575-b31b1b.svg)](https://arxiv.org/abs/2501.03575v3) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/NVIDIA/Cosmos)
