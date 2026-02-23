@@ -96,6 +96,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 ### Online 3R
 -  **InfiniteVGGT**, "InfiniteVGGT: Visual Geometry Grounded Transformer for Endless Streams". [![arXiv](https://img.shields.io/badge/arXiv-2601.02281-b31b1b.svg)](https://arxiv.org/abs/2601.02281v1) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/AutoLab-SAI-SJTU/InfiniteVGGT)
 -  **XStreamVGGT**, "XStreamVGGT: Extremely Memory-Efficient Streaming Vision Geometry Grounded Transformer with KV Cache Compression". [![arXiv](https://img.shields.io/badge/arXiv-2601.01204-b31b1b.svg)](https://arxiv.org/abs/2601.01204v1)
+-  **MUT3R**, "MUT3R: Motion-aware Updating Transformer for Dynamic 3D Reconstruction". [![arXiv](https://img.shields.io/badge/arXiv-2512.03939-b31b1b.svg)](https://arxiv.org/abs/2512.03939)
 -  **TTT3R**, "TTT3R: 3D RECONSTRUCTION AS TEST-TIME TRAINING". [![arXiv](https://img.shields.io/badge/arXiv-2509.26645-b31b1b.svg)](https://arxiv.org/abs/2509.26645v3) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Inception3D/TTT3R)
 -  **G-CUT3R**, "G-CUT3R: Guided 3D Reconstruction with Camera and Depth Prior Integration". [![arXiv](https://img.shields.io/badge/arXiv-2508.11379-b31b1b.svg)](https://arxiv.org/abs/2508.11379v2)
 - [⭐️] **StreamVGGT**, "Streaming 4D Visual Geometry Transformer". [![arXiv](https://img.shields.io/badge/arXiv-2507.11539-b31b1b.svg)](https://arxiv.org/abs/2507.11539) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/wzzheng/StreamVGGT)
