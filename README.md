@@ -69,7 +69,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 > **Legend**
 > ⭐️ Recommended
-> **Last Updated:** 2026-02-11  
+> **Last Updated:** 2026-02-23  
 
 # 3D Vision Methods
 ## Surveys
