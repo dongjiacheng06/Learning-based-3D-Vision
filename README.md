@@ -211,7 +211,8 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - **Hunyuan3D 1.0**, "Hunyuan3D 1.0: A Unified Framework for Text-to-3D and Image-to-3D Generation". [![arXiv](https://img.shields.io/badge/arXiv-2411.02293-b31b1b.svg)](https://arxiv.org/abs/2411.02293) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Tencent/Hunyuan3D-1)
 
 
-### Physical Foundation Models
+### Foundation Models with 3D awareness
+- **GeoPT**, "GeoPT: Scaling Physics Simulation via Lifted Geometric Pre-Training". [![arXiv](https://img.shields.io/badge/arXiv-2602.20399-b31b1b.svg)](https://arxiv.org/abs/2602.20399) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Physics-Scaling/GeoPT)
 - [⭐️] **LingBot-VA**, "Causal World Modeling for Robot Control". [![arXiv](https://img.shields.io/badge/arXiv-2601.21998-b31b1b.svg)](https://arxiv.org/pdf/2601.21998)[![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Robbyant/lingbot-va)
 - [⭐️] **Cosmos2.5**, "World Simulation with Video Foundation Models for
 Physical AI". [![arXiv](https://img.shields.io/badge/arXiv-2511.00062-b31b1b.svg)](https://arxiv.org/abs/2511.00062v1) [![GitHub](https://img.shields.io/badge/GitHub-predict2.5-blue)](https://github.com/nvidia-cosmos/cosmos-predict2.5) [![GitHub](https://img.shields.io/badge/GitHub-transfer2.5-blue)](https://github.com/nvidia-cosmos/cosmos-transfer2.5) [![GitHub](https://img.shields.io/badge/GitHub-reason1-blue)](https://github.com/nvidia-cosmos/cosmos-reason1)
