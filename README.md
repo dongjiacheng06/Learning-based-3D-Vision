@@ -75,7 +75,11 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 ## Surveys
 - "Advances in Feed-Forward 3D Reconstruction and View Synthesis: A Survey". [![arXiv](https://img.shields.io/badge/arXiv-2507.14501-b31b1b.svg)](https://arxiv.org/abs/2507.14501)
 - "3D Scene Generation: A Survey". [![arXiv](https://img.shields.io/badge/arXiv-2505.05474-b31b1b.svg)](https://arxiv.org/abs/2505.05474v1)
+- "3D Scene Generation: A Survey". [![arXiv](https://img.shields.io/badge/arXiv-2505.05474-b31b1b.svg)](https://arxiv.org/abs/2505.05474v1)
+- "Learning-based 3D reconstruction in autonomous driving: A comprehensivesurvey".[![arXiv](https://img.shields.io/badge/arXiv-2505.05474-b31b1b.svg)](https://arxiv.org/pdf/2503.14537)
 - "Recent Advances in 3D Object and Scene Generation: A Survey". [![arXiv](https://img.shields.io/badge/arXiv-2504.11734-b31b1b.svg)](https://arxiv.org/abs/2504.11734)
+- "A Review of 3D Reconstruction Techniques for Deformable Tissues in Robotic Surgery".[![arXiv](https://img.shields.io/badge/arXiv-2408.04426-b31b1b.svg)](https://arxiv.org/abs/2408.04426)
+
 
 
 ## End to End 3D Reconstruction
@@ -95,6 +99,10 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 ## Online 3R/SLAM
 ### Online 3R
+- **MeMix**, "MeMix: Writing Less, Remembering More for Streaming 3D Reconstruction".
+- "Long-Sequence Streaming Autoregressive Visual Geometry on struction at Scale"[![arXiv](https://img.shields.io/badge/arXiv-2602.13172-b31b1b.svg)](https://arxiv.org/abs/2602.13172)[![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://3dagentworld.github.io/longstream/)
+- **VGG-T^3**, "VGG-T^3:Offline Feed-Forward 3D Reconstruction at Scale".[![arXiv](https://img.shields.io/badge/arXiv-2602.23361-b31b1b.svg)](https://arxiv.org/abs/2602.23361)[![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://research.nvidia.com/labs/dvl/projects/vgg-ttt/)
+- **tttLRM**, "tttLRM: Test-Time Training for Long Contextand Autoregressive 3D Reconstruction".[![arXiv](https://img.shields.io/badge/arXiv-2602.20160-b31b1b.svg)](https://arxiv.org/abs/2602.20160) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://cwchenwang.github.io/tttLRM/)
 - **TTSA3R**, "TTSA3R: Training-Free Temporal-Spatial Adaptive Persistent State for Streaming 3D Reconstruction". [![arXiv](https://img.shields.io/badge/arXiv-2601.22615-b31b1b.svg)](https://arxiv.org/abs/2601.22615) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/anonus2357/ttsa3r)
 -  **InfiniteVGGT**, "InfiniteVGGT: Visual Geometry Grounded Transformer for Endless Streams". [![arXiv](https://img.shields.io/badge/arXiv-2601.02281-b31b1b.svg)](https://arxiv.org/abs/2601.02281v1) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/AutoLab-SAI-SJTU/InfiniteVGGT)
 -  **XStreamVGGT**, "XStreamVGGT: Extremely Memory-Efficient Streaming Vision Geometry Grounded Transformer with KV Cache Compression". [![arXiv](https://img.shields.io/badge/arXiv-2601.01204-b31b1b.svg)](https://arxiv.org/abs/2601.01204v1)
@@ -132,6 +140,8 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 
 ## 3D Perception
+- **Utonia**, "Utonia: Toward One Encoder for All Point Clouds".[![arXiv](https://img.shields.io/badge/arXiv-2603.03283-b31b1b.svg)](https://arxiv.org/abs/2603.03283)[![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://pointcept.github.io/Utonia/)
+- "Scaling View SynthesisTransformers"[![arXiv](https://img.shields.io/badge/arXiv-2602.21341-b31b1b.svg)](https://arxiv.org/abs/2602.21341)[![GitHub](https://www.evn.kim/research/svsm)
 - **LingBot-Depth**, "LingBot-Depth: Masked Depth Modeling for Spatial Perception". [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Robbyant/lingbot-depth)
 - **MVGGT**, "MVGGT: Multimodal Visual Geometry Grounded Transformer for Multiview 3D Referring Expression Segmentation". [![arXiv](https://img.shields.io/badge/arXiv-2601.06874-b31b1b.svg)](https://arxiv.org/abs/2601.06874)[![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/sosppxo/mvggt)
 - **Map2Thought**, "Map2Thought: Explicit 3D Spatial Reasoning via Metric Cognitive Maps". [![arXiv](https://img.shields.io/badge/arXiv-2601.11442-b31b1b.svg)](https://arxiv.org/abs/2601.11442)
@@ -227,7 +237,8 @@ Physical AI". [![arXiv](https://img.shields.io/badge/arXiv-2511.00062-b31b1b.svg
 - **UniAD** (Planning-oriented Autonomous Driving), "Planning-oriented Autonomous Driving". [arXiv](https://arxiv.org/abs/2212.10156v2)
 - **UniUGP**, "Unifying Understanding, Generation, and Planning For End-to-end Autonomous Driving". [arXiv](https://arxiv.org/abs/2512.09864v1)
 - **EOT-WM**, "Other Vehicle Trajectories Are Also Needed: A Driving World Model Unifies Ego-Other Vehicle Trajectories in Video Latent Space". [arXiv](https://arxiv.org/abs/2503.09215v3)
-
+- **DGGT**, "DGGT: Feedforward 4D Reconstruction of Dynamic Driving Scenes using
+Unposed Images".[![arXiv](https://img.shields.io/badge/arXiv-2512.03004-b31b1b.svg)](https://arxiv.org/abs/2512.03004) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/xiaomi-research/dggt)
 
 
 
