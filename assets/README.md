@@ -99,9 +99,9 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 ## Online 3R/SLAM
 ### Online 3R
-- **MeMix**, "MeMix: Writing Less, Remembering More for Streaming 3D Reconstruction".
-- "Long-Sequence Streaming Autoregressive Visual Geometry on struction at Scale"[![arXiv](https://img.shields.io/badge/arXiv-2602.13172-b31b1b.svg)](https://arxiv.org/abs/2602.13172)[![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://3dagentworld.github.io/longstream/)
-- **VGG-T^3**, "VGG-T^3:Offline Feed-Forward 3D Reconstruction at Scale".[![arXiv](https://img.shields.io/badge/arXiv-2602.23361-b31b1b.svg)](https://arxiv.org/abs/2602.23361)[![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://research.nvidia.com/labs/dvl/projects/vgg-ttt/)
+- **LoGeR**: "LoGeR: Long-Context Geometric Reconstructionwith Hybrid Memory"[![arXiv](https://img.shields.io/badge/arXiv-2602.13172-b31b1b.svg)](https://arxiv.org/abs/2603.03269v1) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Junyi42/LoGeR)
+- "Long-Sequence Streaming Autoregressive Visual Geometry on struction at Scale"[![arXiv](https://img.shields.io/badge/arXiv-2602.13172-b31b1b.svg)](https://arxiv.org/abs/2602.13172) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://3dagentworld.github.io/longstream/)
+- **VGG-T^3**, "VGG-T^3:Offline Feed-Forward 3D Reconstruction at Scale".[![arXiv](https://img.shields.io/badge/arXiv-2602.23361-b31b1b.svg)](https://arxiv.org/abs/2602.23361) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://research.nvidia.com/labs/dvl/projects/vgg-ttt/)
 - **tttLRM**, "tttLRM: Test-Time Training for Long Contextand Autoregressive 3D Reconstruction".[![arXiv](https://img.shields.io/badge/arXiv-2602.20160-b31b1b.svg)](https://arxiv.org/abs/2602.20160) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://cwchenwang.github.io/tttLRM/)
 - **TTSA3R**, "TTSA3R: Training-Free Temporal-Spatial Adaptive Persistent State for Streaming 3D Reconstruction". [![arXiv](https://img.shields.io/badge/arXiv-2601.22615-b31b1b.svg)](https://arxiv.org/abs/2601.22615) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/anonus2357/ttsa3r)
 -  **InfiniteVGGT**, "InfiniteVGGT: Visual Geometry Grounded Transformer for Endless Streams". [![arXiv](https://img.shields.io/badge/arXiv-2601.02281-b31b1b.svg)](https://arxiv.org/abs/2601.02281v1) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/AutoLab-SAI-SJTU/InfiniteVGGT)
