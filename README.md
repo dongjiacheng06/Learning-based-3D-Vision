@@ -69,7 +69,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 > **Legend**
 > ⭐️ Recommended
-> **Last Updated:** 2026-02-27
+> **Last Updated:** 2026-03-23
 
 # 3D Vision Methods
 ## Surveys
@@ -83,6 +83,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 
 ## End to End 3D Reconstruction
+- [⭐️] **NOVA3R**, "NOVA3R: Non-pixel-aligned Visual Transformer for Amodal 3D Reconstruction". [![arXiv](https://img.shields.io/badge/arXiv-2603.04179-b31b1b.svg)](https://arxiv.org/abs/2603.04179) [![Project](https://img.shields.io/badge/Project-Page-green)](https://wrchen530.github.io/nova3r/)
 - [⭐️] **tttLRM**, "tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction". [![arXiv](https://img.shields.io/badge/arXiv-2602.20160-b31b1b.svg)](https://arxiv.org/abs/2602.20160) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/cwchenwang/tttLRM)
 - [⭐️] **E-RayZer**, "E-RayZer: Self-supervised 3D Reconstruction as Spatial Visual Pre-training". [![arXiv](https://img.shields.io/badge/arXiv-2512.10950-b31b1b.svg)](https://arxiv.org/abs/2512.10950) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/hwjiang1510/E-RayZer)
 - [⭐️] **DA3**, "Depth Anything 3: Recovering the Visual Space from Any Views". [![arXiv](https://img.shields.io/badge/arXiv-2511.10647-b31b1b.svg)](https://arxiv.org/abs/2511.10647) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/ByteDance-Seed/Depth-Anything-3)
@@ -99,7 +100,8 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 ## Online 3R/SLAM
 ### Online 3R
-- **MeMix**, "MeMix: Writing Less, Remembering More for Streaming 3D Reconstruction".
+- [⭐️] **MeMix**, "MeMix: Writing Less, Remembering More for Streaming 3D Reconstruction". [![arXiv](https://img.shields.io/badge/arXiv-2603.15330-b31b1b.svg)](https://arxiv.org/abs/2603.15330) [![Project](https://img.shields.io/badge/Project-Page-green)](https://dongjiacheng06.github.io/MeMix/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/dongjiacheng06/MeMix)
+- [⭐️] **ZipMap**, "ZipMap: Linear-Time Stateful 3D Reconstruction via Test-Time Training". [![arXiv](https://img.shields.io/badge/arXiv-2603.04385-b31b1b.svg)](https://arxiv.org/abs/2603.04385) [![Project](https://img.shields.io/badge/Project-Page-green)](https://haian-jin.github.io/ZipMap/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Haian-Jin/ZipMap)
 - "Long-Sequence Streaming Autoregressive Visual Geometry on struction at Scale"[![arXiv](https://img.shields.io/badge/arXiv-2602.13172-b31b1b.svg)](https://arxiv.org/abs/2602.13172)[![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://3dagentworld.github.io/longstream/)
 - **VGG-T^3**, "VGG-T^3:Offline Feed-Forward 3D Reconstruction at Scale".[![arXiv](https://img.shields.io/badge/arXiv-2602.23361-b31b1b.svg)](https://arxiv.org/abs/2602.23361)[![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://research.nvidia.com/labs/dvl/projects/vgg-ttt/)
 - **tttLRM**, "tttLRM: Test-Time Training for Long Contextand Autoregressive 3D Reconstruction".[![arXiv](https://img.shields.io/badge/arXiv-2602.20160-b31b1b.svg)](https://arxiv.org/abs/2602.20160) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://cwchenwang.github.io/tttLRM/)
@@ -196,6 +198,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 
 ## 3D Free Method
+- **LagerNVS**, "LagerNVS: Latent Geometry for Fully Neural Real-time Novel View Synthesis". [![arXiv](https://img.shields.io/badge/arXiv-2603.20176-b31b1b.svg)](https://arxiv.org/abs/2603.20176) [![Project](https://img.shields.io/badge/Project-Page-green)](http://szymanowiczs.github.io/lagernvs)
 - [⭐️] **SVSM**, "Scaling View Synthesis Transformers".  [![arXiv](https://img.shields.io/badge/arXiv-2602.21341-b31b1b.svg)](https://arxiv.org/abs/2602.21341) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/evnkim/SVSM)
 - [⭐️] **XFactor**, "True Self-Supervised Novel View Synthesis is Transferable". [![arXiv](https://img.shields.io/badge/arXiv-2510.13063-b31b1b.svg)](https://arxiv.org/abs/2510.13063) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/vsitzmann/xfactor-nvs)
 - [⭐️] **RayZer**, "RayZer: A Self-supervised Large View Synthesis Model". [![arXiv](https://img.shields.io/badge/arXiv-2505.00702-b31b1b.svg)](https://arxiv.org/abs/2505.00702) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/hwjiang1510/RayZer)
