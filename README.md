@@ -101,6 +101,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 # 3D Vision Methods
 ## Surveys
+- "Advances in Global Solvers for 3D Vision". [![arXiv](https://img.shields.io/badge/arXiv-2602.14662-b31b1b.svg)](https://arxiv.org/abs/2602.14662) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/ericzzj1989/Awesome-Global-Solvers-for-3D-Vision)
 - "Advances in Feed-Forward 3D Reconstruction and View Synthesis: A Survey". [![arXiv](https://img.shields.io/badge/arXiv-2507.14501-b31b1b.svg)](https://arxiv.org/abs/2507.14501)
 - "3D Scene Generation: A Survey". [![arXiv](https://img.shields.io/badge/arXiv-2505.05474-b31b1b.svg)](https://arxiv.org/abs/2505.05474v1)
 - "Recent Advances in 3D Object and Scene Generation: A Survey". [![arXiv](https://img.shields.io/badge/arXiv-2504.11734-b31b1b.svg)](https://arxiv.org/abs/2504.11734)
