@@ -330,3 +330,13 @@ If you find this repository useful, please consider citing it:
   howpublished = {\url{https://github.com/dongjiacheng06/Learning-based-3D-Vision}},
   year         = {2026}
 }
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=dongjiacheng06%2FLearning-based-3D-Vision&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=dongjiacheng06/Learning-based-3D-Vision&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=dongjiacheng06/Learning-based-3D-Vision&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=dongjiacheng06/Learning-based-3D-Vision&type=date&legend=top-left" />
+ </picture>
+</a>
