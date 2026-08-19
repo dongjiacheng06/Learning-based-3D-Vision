@@ -19,6 +19,7 @@ A curated collection of works in **Learning-based 3D Vision**, systematically or
 ## News & Updates
 Major updates and announcements are shown below. Scroll for full taxonomy and paper lists.
 
+- [2026.08] Added 43 curated papers through 2026-08-19 and expanded the taxonomy for 3D vision-language models, spatial intelligence, and standalone datasets/benchmarks.
 - [2026.05] Added recent 3D/4D reconstruction, generation, perception, and world-model papers through 2026-05-03.
 - [2026.01] Repo Launch — Learning-based-3D-Vision is now live! See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to contribute.
 - [Ongoing] Community Contributions Welcome — Submit papers via PR or open an issue.
@@ -58,7 +59,15 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 <ul>
 <li><a href="#depth--geometry-perception">Depth / Geometry Perception</a></li>
 <li><a href="#3d-understanding">3D Understanding</a></li>
-<li><a href="#spatial-reasoning">Spatial Reasoning</a></li>
+</ul>
+</details>
+</li>
+<li style="margin-left: 0;">
+<details>
+<summary><a href="#3d-vision-language--spatial-intelligence">3D Vision-Language / Spatial Intelligence</a></summary>
+<ul>
+<li><a href="#3d-aware-vision-language-models">3D-Aware Vision-Language Models</a></li>
+<li><a href="#spatial-reasoning--memory">Spatial Reasoning / Memory</a></li>
 </ul>
 </details>
 </li>
@@ -89,10 +98,10 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 <ul>
 <li><a href="#generative-models">Generative Models</a></li>
 <li><a href="#world-models--action-models">World Models / Action Models</a></li>
-<li><a href="#datasets--benchmarks">Datasets / Benchmarks</a></li>
 </ul>
 </details>
 </li>
+<li style="margin-left: 0;"><a href="#datasets--benchmarks">Datasets / Benchmarks</a></li>
 <li style="margin-left: 0;">
 <details>
 <summary><a href="#3d-vision-applications">3D Vision Applications</a></summary>
@@ -107,10 +116,11 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 > **Legend**<br>
 > ⭐️ Recommended<br>
-> **Last Updated:** 2026-05-03
+> **Last Updated:** 2026-08-19
 
 # 3D Vision Methods
 ## Surveys
+- "Advances in Neural 3D Mesh Texturing: A Survey". [![arXiv](https://img.shields.io/badge/arXiv-2606.00137-b31b1b.svg)](https://arxiv.org/abs/2606.00137) [![Project](https://img.shields.io/badge/Project-Page-green)](https://sairajk.github.io/neural-mesh-texturing/)
 - "3D Generation for Embodied AI and Robotic Simulation: A Survey". [![arXiv](https://img.shields.io/badge/arXiv-2604.26509-b31b1b.svg)](https://arxiv.org/abs/2604.26509) [![Project](https://img.shields.io/badge/Project-Page-green)](https://3dgen4robot.github.io)
 - "Advances in Global Solvers for 3D Vision". [![arXiv](https://img.shields.io/badge/arXiv-2602.14662-b31b1b.svg)](https://arxiv.org/abs/2602.14662) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/ericzzj1989/Awesome-Global-Solvers-for-3D-Vision)
 - "Advances in Feed-Forward 3D Reconstruction and View Synthesis: A Survey". [![arXiv](https://img.shields.io/badge/arXiv-2507.14501-b31b1b.svg)](https://arxiv.org/abs/2507.14501)
@@ -126,6 +136,9 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - [⭐️] **NOVA3R**, "NOVA3R: Non-pixel-aligned Visual Transformer for Amodal 3D Reconstruction". [![arXiv](https://img.shields.io/badge/arXiv-2603.04179-b31b1b.svg)](https://arxiv.org/abs/2603.04179) [![Project](https://img.shields.io/badge/Project-Page-green)](https://wrchen530.github.io/nova3r/)
 
 ### other E2E 3D Reconstruction
+- **Argus**, "Argus: Metric Panoramic 3D Reconstruction for Indoor Scenes". [![arXiv](https://img.shields.io/badge/arXiv-2606.30047-b31b1b.svg)](https://arxiv.org/abs/2606.30047) [![Project](https://img.shields.io/badge/Project-Page-green)](https://argus-paper.realsee.ai/)
+- [⭐️] **Déjà View**, "Déjà View: Looping Transformers for Multi-View 3D Reconstruction". [![arXiv](https://img.shields.io/badge/arXiv-2605.30215-b31b1b.svg)](https://arxiv.org/abs/2605.30215) [![Project](https://img.shields.io/badge/Project-Page-green)](https://research.nvidia.com/labs/dvl/projects/dvlt)
+- **R³**, "R³: 3D Reconstruction via Relative Regression". [![arXiv](https://img.shields.io/badge/arXiv-2605.26519-b31b1b.svg)](https://arxiv.org/abs/2605.26519) [![Project](https://img.shields.io/badge/Project-Page-green)](https://kevinxu02.github.io/r3-site)
 - **GenWildSplat**, "Generalizable Sparse-View 3D Reconstruction from Unconstrained Images". [![arXiv](https://img.shields.io/badge/arXiv-2604.28193-b31b1b.svg)](https://arxiv.org/abs/2604.28193) [![Project](https://img.shields.io/badge/Project-Page-green)](https://genwildsplat.github.io/)
 - **RecGen**, "Reconstruction by Generation: 3D Multi-Object Scene Reconstruction from Sparse Observations". [![arXiv](https://img.shields.io/badge/arXiv-2604.27106-b31b1b.svg)](https://arxiv.org/abs/2604.27106) [![Project](https://img.shields.io/badge/Project-Page-green)](https://reconstruction-by-generation.github.io)
 - **WildSplatter**, "WildSplatter: Feed-forward 3D Gaussian Splatting with Appearance Control from Unconstrained Images". [![arXiv](https://img.shields.io/badge/arXiv-2604.21182-b31b1b.svg)](https://arxiv.org/abs/2604.21182) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/yfujimura/WildSplatter)
@@ -156,6 +169,9 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 ## Online 3R/SLAM
 ### Online 3R
+- [⭐️] **Anchor3R**, "Anchor3R: Streaming 3D Reconstruction with Transient Anchors for Long-Horizon Visual Mapping". [![arXiv](https://img.shields.io/badge/arXiv-2606.05035-b31b1b.svg)](https://arxiv.org/abs/2606.05035)
+- [⭐️] **HorizonStream**, "HorizonStream: Long-Horizon Attention for Streaming 3D Reconstruction". [![arXiv](https://img.shields.io/badge/arXiv-2605.23889-b31b1b.svg)](https://arxiv.org/abs/2605.23889) [![Project](https://img.shields.io/badge/Project-Page-green)](https://3dagentworld.github.io/horizonstream/)
+- **RetrieveVGGT**, "Attention Itself Could Retrieve. RetrieveVGGT: Training-Free Long Context Streaming 3D Reconstruction via Query-Key Similarity Retrieval". [![arXiv](https://img.shields.io/badge/arXiv-2605.09644-b31b1b.svg)](https://arxiv.org/abs/2605.09644) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/zzctmd/RetrieveVGGT)
 - **StreamCacheVGGT**, "StreamCacheVGGT: Streaming visual geometry transformers with robust scoring and hybrid cache compression". [![arXiv](https://img.shields.io/badge/arXiv-2604.15237-b31b1b.svg)](https://arxiv.org/abs/2604.15237)
 - [⭐️] **LingBot-Map**, "Geometric Context Transformer for Streaming 3D Reconstruction". [![arXiv](https://img.shields.io/badge/arXiv-2604.14141-b31b1b.svg)](https://arxiv.org/abs/2604.14141) [![Project](https://img.shields.io/badge/Project-Page-green)](https://technology.robbyant.com/lingbot-map) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/robbyant/lingbot-map)
 - **Online3R**, "Online3R: Online Learning for Consistent Sequential Reconstruction Based on Geometry Foundation Model". [![arXiv](https://img.shields.io/badge/arXiv-2604.09480-b31b1b.svg)](https://arxiv.org/abs/2604.09480)
@@ -177,6 +193,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 
 ### SLAM
+- **UniSim-SLAM**, "UniSim-SLAM: Feed-Forward SLAM with Unified Sim(3) Optimization". [![arXiv](https://img.shields.io/badge/arXiv-2608.01706-b31b1b.svg)](https://arxiv.org/abs/2608.01706) [![Project](https://img.shields.io/badge/Project-Page-green)](https://vision3d-lab.github.io/unisim-slam/)
 - **RADIO-ViPE**, "RADIO-ViPE: Online Tightly Coupled Multi-Modal Fusion for Open-Vocabulary Semantic SLAM in Dynamic Environments". [![arXiv](https://img.shields.io/badge/arXiv-2604.26067-b31b1b.svg)](https://arxiv.org/abs/2604.26067)
 - **Flow4DGS-SLAM**, "Flow4DGS-SLAM: Optical Flow-Guided 4D Gaussian Splatting SLAM". [![arXiv](https://img.shields.io/badge/arXiv-2604.22339-b31b1b.svg)](https://arxiv.org/abs/2604.22339)
 - **GRS-SLAM3R**, "GRS-SLAM3R: Real-Time Dense SLAM with Gated Recurrent State". [![arXiv](https://img.shields.io/badge/arXiv-2509.23737-b31b1b.svg)](https://arxiv.org/abs/2509.23737v1)
@@ -186,6 +203,11 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - **SLAM3R**, "SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos". [![arXiv](https://img.shields.io/badge/arXiv-2412.09401-b31b1b.svg)](https://arxiv.org/abs/2412.09401) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/PKU-VCL-3DV/SLAM3R)
 
 ## 3D Generation
+- [⭐️] **Hunyuan3D-Buffalo 1.0**, "Hunyuan3D-Buffalo 1.0: A Unified Multimodal Model for Scalable 3D Generation, Understanding, and Editing". [![arXiv](https://img.shields.io/badge/arXiv-2608.02711-b31b1b.svg)](https://arxiv.org/abs/2608.02711) [![Project](https://img.shields.io/badge/Project-Page-green)](https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0)
+- **AssetGen**, "AssetGen: Deployable 3D Asset Generation at Interactive Speed". [![arXiv](https://img.shields.io/badge/arXiv-2605.26137-b31b1b.svg)](https://arxiv.org/abs/2605.26137)
+- [⭐️] **PhysX-Omni**, "PhysX-Omni: Unified Simulation-Ready Physical 3D Generation for Rigid, Deformable, and Articulated Objects". [![arXiv](https://img.shields.io/badge/arXiv-2605.21572-b31b1b.svg)](https://arxiv.org/abs/2605.21572) [![Project](https://img.shields.io/badge/Project-Page-green)](https://physx-omni.github.io/)
+- **Pixal3D**, "Pixal3D: Pixel-Aligned 3D Generation from Images". [![arXiv](https://img.shields.io/badge/arXiv-2605.10922-b31b1b.svg)](https://arxiv.org/abs/2605.10922) [![Project](https://img.shields.io/badge/Project-Page-green)](https://ldyang694.github.io/projects/pixal3d/)
+- [⭐️] **PhysForge**, "PhysForge: Generating Physics-Grounded 3D Assets for Interactive Virtual World". [![arXiv](https://img.shields.io/badge/arXiv-2605.05163-b31b1b.svg)](https://arxiv.org/abs/2605.05163) [![Project](https://img.shields.io/badge/Project-Page-green)](https://hku-mmlab.github.io/PhysForge/)
 - **CasLayout**, "CasLayout: Cascaded 3D Layout Diffusion for Indoor Scene Synthesis with Implicit Relation Modeling". [![arXiv](https://img.shields.io/badge/arXiv-2604.27361-b31b1b.svg)](https://arxiv.org/abs/2604.27361) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/YingruiWoo/CasLayout)
 - **CoMoVi**, "CoMoVi: Co-Generation of 3D Human Motions and Realistic Videos". [![arXiv](https://img.shields.io/badge/arXiv-2601.10632-b31b1b.svg)](https://arxiv.org/abs/2601.10632)
 - [⭐️] **TRELLIS.2**, "Native and Compact Structured Latents for 3D Generation". [![arXiv](https://img.shields.io/badge/arXiv-2512.14692-b31b1b.svg)](https://arxiv.org/abs/2512.14692) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/microsoft/TRELLIS.2)
@@ -221,6 +243,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 
 ## 4D Generation
+- **MORPHOS**, "MORPHOS: Autoregressive 4D Generation with Temporal Structured Latents". [![arXiv](https://img.shields.io/badge/arXiv-2606.02491-b31b1b.svg)](https://arxiv.org/abs/2606.02491) [![Project](https://img.shields.io/badge/Project-Page-green)](https://cvlab-kaist.github.io/MORPHOS/)
 - **AnimateAnyMesh++**, "AnimateAnyMesh++: A Flexible 4D Foundation Model for High-Fidelity Text-Driven Mesh Animation". [![arXiv](https://img.shields.io/badge/arXiv-2604.26917-b31b1b.svg)](https://arxiv.org/abs/2604.26917) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/JarrentWu1031/AnimateAnyMesh-pp)
 - **Sculpt4D**, "Sculpt4D: Generating 4D Shapes via Sparse-Attention Diffusion Transformers". [![arXiv](https://img.shields.io/badge/arXiv-2604.21592-b31b1b.svg)](https://arxiv.org/abs/2604.21592)
 - **One4D**, "One4D: Unified 4D Generation and Reconstruction via Decoupled LoRA Control". [![arXiv](https://img.shields.io/badge/arXiv-2511.18922-b31b1b.svg)](https://arxiv.org/abs/2511.18922)
@@ -238,6 +261,8 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 
 ## 3D Editing
+- **TanGO**, "TanGO: Training-Free 3D Editing via Tangent-Space Guidance and Optimization". [![arXiv](https://img.shields.io/badge/arXiv-2607.14927-b31b1b.svg)](https://arxiv.org/abs/2607.14927)
+- **Pxform**, "Feedforward 3D Editing Learns from Semantic-Part Transformation". [![arXiv](https://img.shields.io/badge/arXiv-2605.27351-b31b1b.svg)](https://arxiv.org/abs/2605.27351) [![Project](https://img.shields.io/badge/Project-Page-green)](https://dennis-jwweng.github.io/pxform/)
 - **FluSplat**, "FluSplat: Sparse-View 3D Editing without Test-Time Optimization". [![arXiv](https://img.shields.io/badge/arXiv-2604.20038-b31b1b.svg)](https://arxiv.org/abs/2604.20038)
 - **TransSplat**, "TransSplat: Unbalanced Semantic Transport for Language-Driven 3DGS Editing". [![arXiv](https://img.shields.io/badge/arXiv-2604.19571-b31b1b.svg)](https://arxiv.org/abs/2604.19571)
 - **VecSet-Edit**, "VecSet-Edit: Unleashing Pre-Trained LRM for Mesh Editing from Single Image". [![arXiv](https://img.shields.io/badge/arXiv-2602.04349-b31b1b.svg)](https://arxiv.org/abs/2602.04349)
@@ -265,6 +290,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - [⭐️] **Depth Anything**, "Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data". [![arXiv](https://img.shields.io/badge/arXiv-2401.10891-b31b1b.svg)](https://arxiv.org/abs/2401.10891) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/LiheYoung/Depth-Anything)
 
 ### 3D Understanding
+- **EPS3D**, "EPS3D: End-to-End Feed-Forward 3D Panoptic Segmentation". [![arXiv](https://img.shields.io/badge/arXiv-2606.08980-b31b1b.svg)](https://arxiv.org/abs/2606.08980) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Runsong123/EPS3D)
 - **Semantic Foam**, "Semantic Foam: Unifying Spatial and Semantic Scene Decomposition". [![arXiv](https://img.shields.io/badge/arXiv-2604.26262-b31b1b.svg)](https://arxiv.org/abs/2604.26262) [![Project](https://img.shields.io/badge/Project-Page-green)](http://semanticfoam.github.io/)
 - "Multiple Consistent 2D-3D Mappings for Robust Zero-Shot 3D Visual Grounding". [![arXiv](https://img.shields.io/badge/arXiv-2604.26261-b31b1b.svg)](https://arxiv.org/abs/2604.26261)
 - **Utonia**, "Utonia: Toward One Encoder for All Point Clouds". [![arXiv](https://img.shields.io/badge/arXiv-2603.03283-b31b1b.svg)](https://arxiv.org/abs/2603.03283) [![Project](https://img.shields.io/badge/Project-Page-green)](https://pointcept.github.io/Utonia/)
@@ -272,13 +298,26 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - **MVGGT**, "MVGGT: Multimodal Visual Geometry Grounded Transformer for Multiview 3D Referring Expression Segmentation". [![arXiv](https://img.shields.io/badge/arXiv-2601.06874-b31b1b.svg)](https://arxiv.org/abs/2601.06874) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/sosppxo/mvggt)
 - [⭐️] **SAM3D**, "SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model". [![arXiv](https://img.shields.io/badge/arXiv-2306.02245-b31b1b.svg)](https://arxiv.org/abs/2306.02245)
 
-### Spatial Reasoning
+## 3D Vision-Language / Spatial Intelligence
+### 3D-Aware Vision-Language Models
+- [⭐️] **Qwen-3D**, "Qwen-3D: A Generalist 3D Vision-Language Model for Spatial Understanding". [![arXiv](https://img.shields.io/badge/arXiv-2608.02980-b31b1b.svg)](https://arxiv.org/abs/2608.02980) [![Project](https://img.shields.io/badge/Project-Page-green)](https://qwen-3d.github.io/)
+- **Ground3D-LMM**, "Ground3D-LMM: Fine-Grained 3D Point Grounding and Spatial Reasoning with LMM". [![arXiv](https://img.shields.io/badge/arXiv-2607.05493-b31b1b.svg)](https://arxiv.org/abs/2607.05493)
+- **GR3D**, "Grounded 3D-Aware Spatial Vision-Language Modeling". [![arXiv](https://img.shields.io/badge/arXiv-2605.30307-b31b1b.svg)](https://arxiv.org/abs/2605.30307) [![Project](https://img.shields.io/badge/Project-Page-green)](https://www.anjiecheng.me/gr3d)
+- **DepthVLM**, "Unlocking Dense Metric Depth Estimation in VLMs". [![arXiv](https://img.shields.io/badge/arXiv-2605.15876-b31b1b.svg)](https://arxiv.org/abs/2605.15876) [![Project](https://img.shields.io/badge/Project-Page-green)](https://depthvlm.github.io/)
+
+### Spatial Reasoning / Memory
+- **Reasmory**, "Reasmory: 3D Reconstruction as Explicit Memory for VLMs Spatial Reasoning". [![arXiv](https://img.shields.io/badge/arXiv-2606.00963-b31b1b.svg)](https://arxiv.org/abs/2606.00963)
+- **SpatialForge**, "SpatialForge: Bootstrapping 3D-Aware Spatial Reasoning from Open-World 2D Images". [![arXiv](https://img.shields.io/badge/arXiv-2605.11462-b31b1b.svg)](https://arxiv.org/abs/2605.11462)
 - **World2VLM**, "World2VLM: Distilling World Model Imagination into VLMs for Dynamic Spatial Reasoning". [![arXiv](https://img.shields.io/badge/arXiv-2604.26934-b31b1b.svg)](https://arxiv.org/abs/2604.26934) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/WanyueZhang-ai/World2VLM)
 - **Think3D**, "Think3D: Thinking with Space for Spatial Reasoning". [![arXiv](https://img.shields.io/badge/arXiv-2601.13029-b31b1b.svg)](https://arxiv.org/abs/2601.13029)
 - **Map2Thought**, "Map2Thought: Explicit 3D Spatial Reasoning via Metric Cognitive Maps". [![arXiv](https://img.shields.io/badge/arXiv-2601.11442-b31b1b.svg)](https://arxiv.org/abs/2601.11442)
 
 ## 4D Reconstruction
 ### E2E 4D Reconstruction
+- **SM4RT**, "SM4RT: Learning Structured Motion Geometry for 4D Reconstruction". [![arXiv](https://img.shields.io/badge/arXiv-2607.22534-b31b1b.svg)](https://arxiv.org/abs/2607.22534) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/wzzheng/SM4RT)
+- [⭐️] **OmniX**, "OmniX: Any-view and Any-time 4D Reconstruction via Feed-forward Trajectory Fields". [![arXiv](https://img.shields.io/badge/arXiv-2607.10840-b31b1b.svg)](https://arxiv.org/abs/2607.10840) [![Project](https://img.shields.io/badge/Project-Page-green)](https://omnix4d.github.io/)
+- **C4G**, "Learning Global Motion with Compact Gaussians for Feed-Forward 4D Reconstruction". [![arXiv](https://img.shields.io/badge/arXiv-2605.31595-b31b1b.svg)](https://arxiv.org/abs/2605.31595) [![Project](https://img.shields.io/badge/Project-Page-green)](https://cvlab-kaist.github.io/C4G)
+- **NoPo4D**, "No Pose, No Problem in 4D: Feed-Forward Dynamic Gaussians from Unposed Multi-View Videos". [![arXiv](https://img.shields.io/badge/arXiv-2605.22190-b31b1b.svg)](https://arxiv.org/abs/2605.22190) [![Project](https://img.shields.io/badge/Project-Page-green)](https://bralani.github.io/nopo4d_html/)
 - **Flow4R**, "Flow4R: Unifying 4D Reconstruction and Tracking with Scene Flow". [![arXiv](https://img.shields.io/badge/arXiv-2602.14021-b31b1b.svg)](https://arxiv.org/abs/2602.14021)
 - **Motion 3-to-4**, "Motion 3-to-4: 3D Motion Reconstruction for 4D Synthesis". [![arXiv](https://img.shields.io/badge/arXiv-2601.14253-b31b1b.svg)](https://arxiv.org/abs/2601.14253)
 - **V-DPM**, "V-DPM: 4D Video Reconstruction with Dynamic Point Maps". [![arXiv](https://img.shields.io/badge/arXiv-2601.09499-b31b1b.svg)](https://arxiv.org/abs/2601.09499)
@@ -312,6 +351,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 ## 4D Perception
 ### 4D Geometry / Motion Perception
+- **Velox**, "Velox: Learning Representations of 4D Geometry and Appearance". [![arXiv](https://img.shields.io/badge/arXiv-2605.04527-b31b1b.svg)](https://arxiv.org/abs/2605.04527) [![Project](https://img.shields.io/badge/Project-Page-green)](https://apple.github.io/ml-velox)
 - [⭐️] **SelfEvo**, "Self-Improving 4D Perception via Self-Distillation". [![arXiv](https://img.shields.io/badge/arXiv-2604.08532-b31b1b.svg)](https://arxiv.org/abs/2604.08532) [![Project](https://img.shields.io/badge/Project-Page-green)](https://self-evo.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Self-Evo/SelfEvo)
 - **PAGE-4D**, "PAGE-4D: Disentangled Pose and Geometry Estimation for VGGT-4D Perception". [![arXiv](https://img.shields.io/badge/arXiv-2510.17568-b31b1b.svg)](https://arxiv.org/abs/2510.17568)
 - [⭐️] **ViPE**, "ViPE: Video Pose Engine for 3D Geometric Perception". [![arXiv](https://img.shields.io/badge/arXiv-2508.10934-b31b1b.svg)](https://arxiv.org/abs/2508.10934) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/nv-tlabs/vipe)
@@ -319,6 +359,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - **Stereo4D**, "Stereo4D: Learning How Things Move in 3D from Internet Stereo Videos". [![arXiv](https://img.shields.io/badge/arXiv-2412.09621-b31b1b.svg)](https://arxiv.org/abs/2412.09621) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/mli0603/stereo4d)
 
 ### 4D Understanding / Tracking
+- **TrackCraft3R**, "TrackCraft3R: Repurposing Video Diffusion Transformers for Dense 3D Tracking". [![arXiv](https://img.shields.io/badge/arXiv-2605.12587-b31b1b.svg)](https://arxiv.org/abs/2605.12587) [![Project](https://img.shields.io/badge/Project-Page-green)](https://cvlab-kaist.github.io/TrackCraft3r/)
 - **ReScene4D**, "ReScene4D: Temporally Consistent Semantic Instance Segmentation of Evolving Indoor 3D Scenes". [![arXiv](https://img.shields.io/badge/arXiv-2601.11508-b31b1b.svg)](https://arxiv.org/abs/2601.11508)
 - **3AM**, "3AM: Segment Anything with Geometric Consistency in Videos". [![arXiv](https://img.shields.io/badge/arXiv-2601.08831-b31b1b.svg)](https://arxiv.org/abs/2601.08831)
 - **Trace Anything**, "Trace Anything: Representing Any Video in 4D via Trajectory Fields". [![arXiv](https://img.shields.io/badge/arXiv-2510.13802-b31b1b.svg)](https://arxiv.org/abs/2510.13802) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/ByteDance-Seed/TraceAnything)
@@ -332,6 +373,10 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 
 ## Related Analysis
+- **Co-VGGT**, "What VGGT Knows About Overlap: Probing Geometric Foundation Models for Co-Visibility". [![arXiv](https://img.shields.io/badge/arXiv-2607.09503-b31b1b.svg)](https://arxiv.org/abs/2607.09503)
+- "One Scene, Two Depths: Probing Geometric Ambiguity in Monocular Foundation Models". [![arXiv](https://img.shields.io/badge/arXiv-2606.29600-b31b1b.svg)](https://arxiv.org/abs/2606.29600)
+- "Can These Views Be One Scene? Evaluating Multiview 3D Consistency when 3D Foundation Models Hallucinate". [![arXiv](https://img.shields.io/badge/arXiv-2605.18754-b31b1b.svg)](https://arxiv.org/abs/2605.18754) [![Project](https://img.shields.io/badge/Project-Page-green)](https://mvp18.github.io/3d-consistency-metrics/)
+- **PDI-Bench**, "Quantitative Video World Model Evaluation for Geometric-Consistency". [![arXiv](https://img.shields.io/badge/arXiv-2605.15185-b31b1b.svg)](https://arxiv.org/abs/2605.15185) [![Project](https://img.shields.io/badge/Project-Page-green)](https://pdi-bench.github.io/)
 - "How Much 3D Do Video Foundation Models Encode?". [![arXiv](https://img.shields.io/badge/arXiv-2512.19949-b31b1b.svg)](https://arxiv.org/abs/2512.19949)
 - [⭐️] "On Geometric Understanding and Learned Priors in Feed-forward 3D Reconstruction Models". [![arXiv](https://img.shields.io/badge/arXiv-2512.11508-b31b1b.svg)](https://arxiv.org/abs/2512.11508)
 - "What Is The Best 3D Scene Representation for Robotics? From Geometric to Foundation Models". [![arXiv](https://img.shields.io/badge/arXiv-2512.03422-b31b1b.svg)](https://arxiv.org/abs/2512.03422v1)
@@ -351,18 +396,27 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - **Wan**, "Wan: Open and Advanced Large-Scale Video Generative Models". [![arXiv](https://img.shields.io/badge/arXiv-2503.20314-b31b1b.svg)](https://arxiv.org/abs/2503.20314v2) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Wan-Video/Wan2.1)
 
 ### World Models / Action Models
+> **Scope:** Models in this section must use explicit 3D/4D geometry, geometric supervision, spatial action/state representations, or direct action modeling for Physical AI. Generic video-only world models are out of scope.
+
+- **LAWM-3D**, "LAWM-3D: Learning 3D-Aware Latent Actions from Human Videos for Generalizable Robot World Models". [![arXiv](https://img.shields.io/badge/arXiv-2608.05706-b31b1b.svg)](https://arxiv.org/abs/2608.05706)
+- **3DPWM**, "3D Point World Models: Point Completion Enables More Accurate Dynamics Learning". [![arXiv](https://img.shields.io/badge/arXiv-2607.00148-b31b1b.svg)](https://arxiv.org/abs/2607.00148)
+- [⭐️] **WAM4D**, "WAM4D: Fast 4D World Action Model via Spatial Register Tokens". [![arXiv](https://img.shields.io/badge/arXiv-2606.14048-b31b1b.svg)](https://arxiv.org/abs/2606.14048)
+- **μ₀**, "μ₀: A Scalable 3D Interaction-Trace World Model". [![arXiv](https://img.shields.io/badge/arXiv-2606.13769-b31b1b.svg)](https://arxiv.org/abs/2606.13769)
+- [⭐️] **3DThinkVLA**, "3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training". [![arXiv](https://img.shields.io/badge/arXiv-2606.04436-b31b1b.svg)](https://arxiv.org/abs/2606.04436)
+- [⭐️] **Cosmos 3**, "Cosmos 3: Omnimodal World Models for Physical AI". [![arXiv](https://img.shields.io/badge/arXiv-2606.02800-b31b1b.svg)](https://arxiv.org/abs/2606.02800) [![Project](https://img.shields.io/badge/Project-Page-green)](https://research.nvidia.com/labs/cosmos-lab/cosmos3) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/nvidia/cosmos)
+- **GEM-4D**, "GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation". [![arXiv](https://img.shields.io/badge/arXiv-2605.22882-b31b1b.svg)](https://arxiv.org/abs/2605.22882) [![Project](https://img.shields.io/badge/Project-Page-green)](https://gem-4d.github.io/)
 - **X-WAM**, "Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising". [![arXiv](https://img.shields.io/badge/arXiv-2604.26694-b31b1b.svg)](https://arxiv.org/abs/2604.26694) [![Project](https://img.shields.io/badge/Project-Page-green)](https://sharinka0715.github.io/X-WAM/)
 - **GeoPT**, "GeoPT: Scaling Physics Simulation via Lifted Geometric Pre-Training". [![arXiv](https://img.shields.io/badge/arXiv-2602.20399-b31b1b.svg)](https://arxiv.org/abs/2602.20399) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Physics-Scaling/GeoPT)
 - [⭐️] **LingBot-VA**, "Causal World Modeling for Robot Control". [![arXiv](https://img.shields.io/badge/arXiv-2601.21998-b31b1b.svg)](https://arxiv.org/abs/2601.21998) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Robbyant/lingbot-va)
-- [⭐️] **LingBot-World**, "Advancing Open-source World Models". [![arXiv](https://img.shields.io/badge/arXiv-2601.20540-b31b1b.svg)](https://arxiv.org/abs/2601.20540) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/robbyant/lingbot-world)
 - **RoboBrain 2.5**, "RoboBrain 2.5: Depth in Sight, Time in Mind". [![arXiv](https://img.shields.io/badge/arXiv-2601.14352-b31b1b.svg)](https://arxiv.org/abs/2601.14352)
 - [⭐️] **NeoVerse**, "NeoVerse: Enhancing 4D World Model with in-the-wild Monocular Videos". [![arXiv](https://img.shields.io/badge/arXiv-2601.00393-b31b1b.svg)](https://arxiv.org/abs/2601.00393) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/IamCreateAI/NeoVerse)
 - **DynamicVerse**, "DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling". [![arXiv](https://img.shields.io/badge/arXiv-2512.03000-b31b1b.svg)](https://arxiv.org/abs/2512.03000) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Dynamics-X/DynamicVerse)
-- [⭐️] **Cosmos2.5**, "World Simulation with Video Foundation Models for Physical AI". [![arXiv](https://img.shields.io/badge/arXiv-2511.00062-b31b1b.svg)](https://arxiv.org/abs/2511.00062v1) [![GitHub](https://img.shields.io/badge/GitHub-predict2.5-blue)](https://github.com/nvidia-cosmos/cosmos-predict2.5) [![GitHub](https://img.shields.io/badge/GitHub-transfer2.5-blue)](https://github.com/nvidia-cosmos/cosmos-transfer2.5) [![GitHub](https://img.shields.io/badge/GitHub-reason1-blue)](https://github.com/nvidia-cosmos/cosmos-reason1)
 - **HunyuanWorld 1.0**, "HunyuanWorld 1.0: Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels". [![arXiv](https://img.shields.io/badge/arXiv-2507.21809-b31b1b.svg)](https://arxiv.org/abs/2507.21809) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0)
-- [⭐️] **Cosmos**, "Cosmos World Foundation Model Platform for Physical AI". [![arXiv](https://img.shields.io/badge/arXiv-2501.03575-b31b1b.svg)](https://arxiv.org/abs/2501.03575v3) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/NVIDIA/Cosmos)
 
-### Datasets / Benchmarks
+## Datasets / Benchmarks
+- **GST-Bench**, "GST-Bench: Can VLMs Develop Global Spatial Awareness from Video?". [![arXiv](https://img.shields.io/badge/arXiv-2608.05747-b31b1b.svg)](https://arxiv.org/abs/2608.05747)
+- **Embodied3DBench**, "Embodied3DBench: Benchmarking Low-Level Embodied Spatial Intelligence of Vision Language Models". [![arXiv](https://img.shields.io/badge/arXiv-2605.29074-b31b1b.svg)](https://arxiv.org/abs/2605.29074)
+- [⭐️] **3DReflecNet**, "3DReflecNet: A Large-Scale Dataset for 3D Reconstruction of Reflective, Transparent, and Low-Texture Objects". [![arXiv](https://img.shields.io/badge/arXiv-2605.10204-b31b1b.svg)](https://arxiv.org/abs/2605.10204)
 - **AirZoo**, "AirZoo: A Unified Large-Scale Dataset for Grounding Aerial Geometric 3D Vision". [![arXiv](https://img.shields.io/badge/arXiv-2604.26567-b31b1b.svg)](https://arxiv.org/abs/2604.26567)
 - **MegaDepth-X**, "Long-tail Internet photo reconstruction". [![arXiv](https://img.shields.io/badge/arXiv-2604.22714-b31b1b.svg)](https://arxiv.org/abs/2604.22714) [![Project](https://img.shields.io/badge/Project-Page-green)](https://megadepth-x.github.io/)
 - **Holo360D**, "Holo360D: A Large-Scale Real-World Dataset with Continuous Trajectories for Advancing Panoramic 3D Reconstruction and Beyond". [![arXiv](https://img.shields.io/badge/arXiv-2604.22482-b31b1b.svg)](https://arxiv.org/abs/2604.22482)
