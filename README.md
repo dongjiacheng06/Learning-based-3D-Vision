@@ -19,6 +19,7 @@ A curated collection of works in **Learning-based 3D Vision**, systematically or
 ## News & Updates
 Major updates and announcements are shown below. Scroll for full taxonomy and paper lists.
 
+- [2026.09] Added 8 curated papers through 2026-09-04 covering streaming reconstruction, geometric pre-training, world-action models, generative reconstruction, and multi-view 3D tracking benchmarks.
 - [2026.08] Added 43 curated papers through 2026-08-19 and expanded the taxonomy for 3D vision-language models, spatial intelligence, and standalone datasets/benchmarks.
 - [2026.05] Added recent 3D/4D reconstruction, generation, perception, and world-model papers through 2026-05-03.
 - [2026.01] Repo Launch — Learning-based-3D-Vision is now live! See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to contribute.
@@ -116,7 +117,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 > **Legend**<br>
 > ⭐️ Recommended<br>
-> **Last Updated:** 2026-08-19
+> **Last Updated:** 2026-09-04
 
 # 3D Vision Methods
 ## Surveys
@@ -136,6 +137,8 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - [⭐️] **NOVA3R**, "NOVA3R: Non-pixel-aligned Visual Transformer for Amodal 3D Reconstruction". [![arXiv](https://img.shields.io/badge/arXiv-2603.04179-b31b1b.svg)](https://arxiv.org/abs/2603.04179) [![Project](https://img.shields.io/badge/Project-Page-green)](https://wrchen530.github.io/nova3r/)
 
 ### other E2E 3D Reconstruction
+- **Gekko**, "Revisiting Cross-View Completion: Self-Supervised Pre-Training via Reconstruction Error Comparison". [![arXiv](https://img.shields.io/badge/arXiv-2609.01530-b31b1b.svg)](https://arxiv.org/abs/2609.01530) [![Project](https://img.shields.io/badge/Project-Page-green)](https://thibautloiseau.github.io/projects/gekko/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/thibautloiseau/gekko)
+- **ReconSplat**, "ReconSplat: Generalizable 3D Scene Reconstruction Beyond Observed Views". [![arXiv](https://img.shields.io/badge/arXiv-2608.28895-b31b1b.svg)](https://arxiv.org/abs/2608.28895) [![Project](https://img.shields.io/badge/Project-Page-green)](https://visinf.github.io/reconsplat/)
 - **Argus**, "Argus: Metric Panoramic 3D Reconstruction for Indoor Scenes". [![arXiv](https://img.shields.io/badge/arXiv-2606.30047-b31b1b.svg)](https://arxiv.org/abs/2606.30047) [![Project](https://img.shields.io/badge/Project-Page-green)](https://argus-paper.realsee.ai/)
 - [⭐️] **Déjà View**, "Déjà View: Looping Transformers for Multi-View 3D Reconstruction". [![arXiv](https://img.shields.io/badge/arXiv-2605.30215-b31b1b.svg)](https://arxiv.org/abs/2605.30215) [![Project](https://img.shields.io/badge/Project-Page-green)](https://research.nvidia.com/labs/dvl/projects/dvlt)
 - **R³**, "R³: 3D Reconstruction via Relative Regression". [![arXiv](https://img.shields.io/badge/arXiv-2605.26519-b31b1b.svg)](https://arxiv.org/abs/2605.26519) [![Project](https://img.shields.io/badge/Project-Page-green)](https://kevinxu02.github.io/r3-site)
@@ -169,6 +172,8 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 
 ## Online 3R/SLAM
 ### Online 3R
+- **Scal3R**, "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction". [![arXiv](https://img.shields.io/badge/arXiv-2609.04201-b31b1b.svg)](https://arxiv.org/abs/2609.04201) [![Project](https://img.shields.io/badge/Project-Page-green)](https://linjohnss.github.io/scal3r/)
+- [⭐️] **ABot-Recon**, "Revisiting Local Context for Long-Horizon Streaming 3D Reconstruction". [![arXiv](https://img.shields.io/badge/arXiv-2608.27529-b31b1b.svg)](https://arxiv.org/abs/2608.27529) [![Project](https://img.shields.io/badge/Project-Page-green)](https://amap-cvlab.github.io/ABot-Recon-html/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/amap-cvlab/ABot-Recon)
 - [⭐️] **Anchor3R**, "Anchor3R: Streaming 3D Reconstruction with Transient Anchors for Long-Horizon Visual Mapping". [![arXiv](https://img.shields.io/badge/arXiv-2606.05035-b31b1b.svg)](https://arxiv.org/abs/2606.05035)
 - [⭐️] **HorizonStream**, "HorizonStream: Long-Horizon Attention for Streaming 3D Reconstruction". [![arXiv](https://img.shields.io/badge/arXiv-2605.23889-b31b1b.svg)](https://arxiv.org/abs/2605.23889) [![Project](https://img.shields.io/badge/Project-Page-green)](https://3dagentworld.github.io/horizonstream/)
 - **RetrieveVGGT**, "Attention Itself Could Retrieve. RetrieveVGGT: Training-Free Long Context Streaming 3D Reconstruction via Query-Key Similarity Retrieval". [![arXiv](https://img.shields.io/badge/arXiv-2605.09644-b31b1b.svg)](https://arxiv.org/abs/2605.09644) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/zzctmd/RetrieveVGGT)
@@ -398,6 +403,9 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 ### World Models / Action Models
 > **Scope:** Models in this section must use explicit 3D/4D geometry, geometric supervision, spatial action/state representations, or direct action modeling for Physical AI. Generic video-only world models are out of scope.
 
+- **Puffin-World**, "Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States". [![arXiv](https://img.shields.io/badge/arXiv-2609.04196-b31b1b.svg)](https://arxiv.org/abs/2609.04196) [![Project](https://img.shields.io/badge/Project-Page-green)](https://kangliao929.github.io/projects/puffin-world/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/KangLiao929/Puffin)
+- **SA-WAM**, "Spatially Aware World Action Model via Geometric Latent Diffusion". [![arXiv](https://img.shields.io/badge/arXiv-2609.02531-b31b1b.svg)](https://arxiv.org/abs/2609.02531)
+- **GaussianWAM**, "GaussianWAM: Distilling Geometry and Semantics from 3D Gaussian Fields into World-Action Models". [![arXiv](https://img.shields.io/badge/arXiv-2608.24714-b31b1b.svg)](https://arxiv.org/abs/2608.24714)
 - **LAWM-3D**, "LAWM-3D: Learning 3D-Aware Latent Actions from Human Videos for Generalizable Robot World Models". [![arXiv](https://img.shields.io/badge/arXiv-2608.05706-b31b1b.svg)](https://arxiv.org/abs/2608.05706)
 - **3DPWM**, "3D Point World Models: Point Completion Enables More Accurate Dynamics Learning". [![arXiv](https://img.shields.io/badge/arXiv-2607.00148-b31b1b.svg)](https://arxiv.org/abs/2607.00148)
 - [⭐️] **WAM4D**, "WAM4D: Fast 4D World Action Model via Spatial Register Tokens". [![arXiv](https://img.shields.io/badge/arXiv-2606.14048-b31b1b.svg)](https://arxiv.org/abs/2606.14048)
@@ -414,6 +422,7 @@ Major updates and announcements are shown below. Scroll for full taxonomy and pa
 - **HunyuanWorld 1.0**, "HunyuanWorld 1.0: Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels". [![arXiv](https://img.shields.io/badge/arXiv-2507.21809-b31b1b.svg)](https://arxiv.org/abs/2507.21809) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0)
 
 ## Datasets / Benchmarks
+- **TAPVid-MV**, "TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views". [![arXiv](https://img.shields.io/badge/arXiv-2609.01899-b31b1b.svg)](https://arxiv.org/abs/2609.01899)
 - **GST-Bench**, "GST-Bench: Can VLMs Develop Global Spatial Awareness from Video?". [![arXiv](https://img.shields.io/badge/arXiv-2608.05747-b31b1b.svg)](https://arxiv.org/abs/2608.05747)
 - **Embodied3DBench**, "Embodied3DBench: Benchmarking Low-Level Embodied Spatial Intelligence of Vision Language Models". [![arXiv](https://img.shields.io/badge/arXiv-2605.29074-b31b1b.svg)](https://arxiv.org/abs/2605.29074)
 - [⭐️] **3DReflecNet**, "3DReflecNet: A Large-Scale Dataset for 3D Reconstruction of Reflective, Transparent, and Low-Texture Objects". [![arXiv](https://img.shields.io/badge/arXiv-2605.10204-b31b1b.svg)](https://arxiv.org/abs/2605.10204)
